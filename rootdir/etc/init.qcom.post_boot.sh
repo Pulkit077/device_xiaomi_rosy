@@ -2143,6 +2143,12 @@ case "$target" in
                 echo 1 > /sys/devices/system/cpu/cpu6/online
                 echo 1 > /sys/devices/system/cpu/cpu7/online
 
+                # Disable retention
+                echo N > /sys/module/lpm_levels/system/pwr/pwr-l2-gdhs/idle_enabled
+                echo N > /sys/module/lpm_levels/system/pwr/pwr-l2-gdhs/suspend_enabled
+                echo N > /sys/module/lpm_levels/system/perf/perf-l2-gdhs/idle_enabled
+                echo N > /sys/module/lpm_levels/system/perf/perf-l2-gdhs/suspend_enabled
+
                 # Enable low power modes
                 echo 0 > /sys/module/lpm_levels/parameters/sleep_disabled
 
