@@ -1,0 +1,3 @@
+allow rfs_access persist_file:dir search;
+allow rfs_access persist_rfs_file:dir create_dir_perms;
+allow rfs_access persist_rfs_file:file create_file_perms;
