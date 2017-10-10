@@ -1,0 +1,4 @@
+userdebug_or_eng(`
+  allow dpmd diag_device:chr_file rw_file_perms;
+')
+dontaudit dpmd diag_device:chr_file rw_file_perms;

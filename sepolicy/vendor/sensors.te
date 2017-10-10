@@ -1,0 +1,4 @@
+userdebug_or_eng(`
+  allow sensors diag_device:chr_file rw_file_perms;
+')
+dontaudit sensors diag_device:chr_file rw_file_perms;

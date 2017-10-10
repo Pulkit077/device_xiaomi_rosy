@@ -1,1 +1,6 @@
 allow cnd wifi_prop:file { read open getattr };
+
+userdebug_or_eng(`
+  allow cnd diag_device:chr_file rw_file_perms;
+')
+dontaudit cnd diag_device:chr_file rw_file_perms;
