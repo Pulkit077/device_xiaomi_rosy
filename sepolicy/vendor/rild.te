@@ -1,1 +1,6 @@
 allow rild rild_file:file r_file_perms;
+
+userdebug_or_eng(`
+  allow rild diag_device:chr_file rw_file_perms;
+')
+dontaudit rild diag_device:chr_file rw_file_perms;
