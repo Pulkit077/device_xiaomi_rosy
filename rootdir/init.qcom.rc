@@ -301,6 +301,9 @@ on property:sys.boot_completed=1
     # Reinit lmkd to reconfigure lmkd properties
     setprop lmkd.reinit 1
 
+    # Enable PowerHAL hint processing
+    setprop vendor.powerhal.init 1
+
 on property:vold.decrypt=trigger_restart_framework
     restart vendor.camera-provider-2-4
     restart vendor.audio-hal-2-0
@@ -374,6 +377,3 @@ service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service
     ioprio rt 4
     writepid /dev/cpuset/foreground/tasks /dev/stune/foreground/tasks
     onrestart restart audioserver
-
-on property:sys.boot_completed=1
-    setprop vendor.post_boot.parsed 1
