@@ -212,7 +212,6 @@ ro.vendor.qti.am.reschedule_service=true
 
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
-ro.vendor.extension_library=libqti-perfd-client.so \
 vendor.perf.gestureflingboost.enable=true
 
 # Netmgrd
