@@ -35,6 +35,8 @@ on fs
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
 
+    # Start HW service manager early
+    start hwservicemanager
     mount_all /vendor/etc/fstab.qcom --early
 
     chown root system /mnt/vendor/persist
@@ -42,9 +44,6 @@ on fs
     restorecon_recursive /mnt/vendor/persist
     mkdir /mnt/vendor/persist/data 0700 system system
     mkdir /mnt/vendor/persist/bms 0700 root system
-
-    # Start HW service manager early
-    start hwservicemanager
 
 on late-fs
     # Start services for bootanim
@@ -54,6 +53,11 @@ on late-fs
 
     start vendor.configstore-hal
     start vendor.gralloc-2-0
+
+    # Wait for hwservicemanager ready since fsck might be triggered in mount_all --late
+    # In such case, init won't responce the property_set from hwservicemanager and then
+    # cause services for bootanim not running.
+    wait_for_prop hwservicemanager.ready true
 
     # mount RW partitions which need run fsck
     mount_all /vendor/etc/fstab.qcom --late
