@@ -189,7 +189,8 @@ ro.iorapd.enable=false
 # LMKD
 PRODUCT_PRODUCT_PROPERTIES += \
 ro.config.low_ram=false \
-ro.lmk.log_stats=true
+ro.lmk.log_stats=true \
+ro.lmk.use_minfree_levels=true
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
