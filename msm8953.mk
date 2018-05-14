@@ -90,8 +90,7 @@ PRODUCT_PACKAGES += \
     libqcompostprocbundle \
     libtinyalsa \
     libtinycompress \
-    libtinyxml \
-    tinymix
+    libtinyxml
 
 # Audio configuration
 PRODUCT_COPY_FILES += \
