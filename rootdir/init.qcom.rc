@@ -296,6 +296,9 @@ on property:sys.boot_completed=1
     # Reinit lmkd to reconfigure lmkd properties
     setprop lmkd.reinit 1
 
+    # Disable sched_boost
+    write /proc/sys/kernel/sched_boost 0
+
     # Enable PowerHAL hint processing
     setprop vendor.powerhal.init 1
 
@@ -355,6 +358,8 @@ service vendor.msm_irqbalance /vendor/bin/msm_irqbalance -f /vendor/etc/msm_irqb
 
 on charger
     start qcom-post-boot
+    # Disable sched_boost
+    write /proc/sys/kernel/sched_boost 0
 
 service vendor.power_off_alarm /vendor/bin/power_off_alarm
     class core

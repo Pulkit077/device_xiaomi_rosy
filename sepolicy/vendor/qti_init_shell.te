@@ -10,3 +10,5 @@ allow qti_init_shell sysfs_slab_zshandle_storeuser:file w_file_perms;
 allow qti_init_shell sysfs_slab_zspage_storeuser:file w_file_perms;
 
 dontaudit qti_init_shell self:capability dac_override;
+
+allow qti_init_shell proc_sysctl_schedboost:file w_file_perms;
