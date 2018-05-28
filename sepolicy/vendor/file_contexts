@@ -1,3 +1,6 @@
+# Camera
+/data/vendor/qcam(/.*)?                         u:object_r:vendor_camera_data_file:s0
+
 # Fpc Fingerprint
 /data/fpc(/.*)?					u:object_r:fpc_data_file:s0
 /dev/socket/fpce(/.*)?				u:object_r:fpce_socket:s0
