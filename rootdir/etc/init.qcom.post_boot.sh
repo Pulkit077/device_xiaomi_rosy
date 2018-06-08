@@ -35,10 +35,9 @@ function 8953_sched_dcvs_eas()
     echo 500 > /sys/devices/system/cpu/cpufreq/schedutil/up_rate_limit_us
     echo 20000 > /sys/devices/system/cpu/cpufreq/schedutil/down_rate_limit_us
     #set the hispeed_freq
-    echo 1401600 > /sys/devices/system/cpu/cpufreq/schedutil/hispeed_freq
+    #echo 1401600 > /sys/devices/system/cpu/cpufreq/schedutil/hispeed_freq
     #default value for hispeed_load is 90, for 8953 and sdm450 it should be 85
     echo 85 > /sys/devices/system/cpu/cpufreq/schedutil/hispeed_load
-    echo 1 > /sys/devices/system/cpu/cpufreq/schedutil/pl
 }
 
 function 8917_sched_dcvs_eas()
