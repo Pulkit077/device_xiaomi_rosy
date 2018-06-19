@@ -43,12 +43,20 @@ on fs
     mkdir /mnt/vendor/persist/data 0700 system system
     mkdir /mnt/vendor/persist/bms 0700 root system
 
+    # Start HW service manager early
+    start hwservicemanager
+
 on late-fs
     # Start services for bootanim
-    start hwservicemanager
     start servicemanager
     start surfaceflinger
     start bootanim
+
+    # Make sure HW service manager started and start required HAL services
+    wait_for_prop hwservicemanager.ready true
+    start vendor.configstore-hal
+    start vendor.gralloc-2-0
+
     # mount RW partitions which need run fsck
     mount_all /vendor/etc/fstab.qcom --late
 
