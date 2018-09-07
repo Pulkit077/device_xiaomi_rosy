@@ -37,6 +37,8 @@ else
     prev_version_info=""
 fi
 
+start vendor.msm_irqbalance
+
 cur_version_info=`cat /vendor/firmware_mnt/verinfo/ver_info.txt`
 if [ ! -f /vendor/firmware_mnt/verinfo/ver_info.txt -o "$prev_version_info" != "$cur_version_info" ]; then
     # add W for group recursively before delete
