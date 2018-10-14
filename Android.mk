@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter mido tissot,$(TARGET_DEVICE)),)
+ifneq ($(filter mido tiffany tissot,$(TARGET_DEVICE)),)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
@@ -67,7 +67,6 @@ $(DSP_MOUNT_POINT):
 	@mkdir -p $(TARGET_OUT_VENDOR)/dsp
 
 IMS_LIBS := libimscamera_jni.so libimsmedia_jni.so
-
 IMS_SYMLINKS := $(addprefix $(TARGET_OUT_APPS_PRIVILEGED)/ims/lib/arm64/,$(notdir $(IMS_LIBS)))
 $(IMS_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 	@echo "IMS lib link: $@"
