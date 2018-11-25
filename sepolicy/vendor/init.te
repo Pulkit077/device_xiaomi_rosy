@@ -1,4 +1,8 @@
-allow init proc_boot_reason:file r_file_perms;
+allow init {
+  proc_boot_reason
+  proc_last_kmsg
+}:file r_file_perms;
+
 allow init wcnss_device:chr_file write;
 allow qti_init_shell {
     fm_prop
@@ -10,7 +14,10 @@ allow init system_file:file mounton;
 # LEDs
 allow init sysfs_leds:lnk_file read;
 
-allow init sysfs_batteryinfo:file { setattr };
-allow init sysfs:file setattr;
+allow init {
+  proc_last_kmsg
+  sysfs
+  sysfs_batteryinfo
+}:file setattr;
 
 allow init vendor_default_prop:property_service set;
