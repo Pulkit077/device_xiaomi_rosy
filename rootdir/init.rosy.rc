@@ -50,6 +50,10 @@ service goodix_script /vendor/bin/init.goodix.sh
     user root
     oneshot
 
+on property:sys.fp.vendor=goodix
+   setprop ro.boot.fpsensor goodix
+   setprop persist.sys.fp.vendor goodix
+
 on post-fs-data
 
     # IR nodes
