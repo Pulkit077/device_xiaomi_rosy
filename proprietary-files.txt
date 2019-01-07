@@ -162,7 +162,7 @@ vendor/lib64/vendor.qti.latency@2.0.so|72645a214e8675680862af236420d8195651f29d
 
 # Camera
 lib/libprotobuf-cpp-full-rosy.so|c1b7f624445be5f16daa0f5da03b31b0eea2c52d
-vendor/bin/mm-qcamera-daemon|bad713dc424d548f6e463f04617c9bb429fea4db
+vendor/bin/mm-qcamera-daemon|a851b418aa6873e569a957dec9ddb100f0d9fdea
 vendor/lib/libllvd_smore.so
 vendor/lib/libChamomilePA.so
 vendor/lib64/libChamomilePA.so
@@ -875,12 +875,12 @@ vendor/lib/libchromatix_sony_imx486_ii_zsl_preview_dw9714v.so
 vendor/lib/libchromatix_sony_imx486_ii_zsl_video_dw9714v.so
 
 # mmcamera from MIUI Stable - V9.2.3.0.NDAMIEK
-vendor/lib/libmmcamera_interface.so
+vendor/lib/libmmcamera_interface.so|3adeaef09f50887905faddd72d628c1517404acb
 vendor/lib/libmmcamera_atmel_at24c32e_eeprom.so
 vendor/lib/libmmcamera_cac3_lib.so
 vendor/lib/libmmcamera_chromaflash_lib.so
 vendor/lib/libmmcamera_csidtg.so
-vendor/lib/libmmcamera_dbg.so
+vendor/lib/libmmcamera_dbg.so|f0146e9d43f24c08f14d25dd460aaa02f5c6822d
 vendor/lib/libmmcamera_dcrf_lib.so
 vendor/lib/libmmcamera_dummyalgo.so
 vendor/lib/libmmcamera_dw9761b_2d_eeprom.so
@@ -891,7 +891,7 @@ vendor/lib/libmmcamera_facedetection_lib.so
 vendor/lib/libmmcamera_faceproc.so
 vendor/lib/libmmcamera_faceproc2.so
 vendor/lib/libmmcamera_hdr_gb_lib.so
-vendor/lib/libmmcamera_imglib.so
+vendor/lib/libmmcamera_imglib.so|caaf376021a1c2d30a8e9c25b6df9f2cd9be2c8d
 vendor/lib/libmmcamera_isp_abf40.so
 vendor/lib/libmmcamera_isp_bcc40.so
 vendor/lib/libmmcamera_isp_be_stats44.so
@@ -963,8 +963,8 @@ vendor/lib/libmmcamera_ovt_ov5675_i_eeprom.so
 vendor/lib/libmmcamera_ovt_ov5675_ii.so
 vendor/lib/libmmcamera_ovt_ov5675_ii_eeprom.so
 vendor/lib/libmmcamera_paaf_lib.so
-vendor/lib/libmmcamera_pdaf.so
-vendor/lib/libmmcamera_pdafcamif.so
+vendor/lib/libmmcamera_pdaf.so|0e60d7259663e802e2cd56afb477153c40712aea
+vendor/lib/libmmcamera_pdafcamif.so|b78b79d1e0211adfb06a704ba45bb92256360034
 vendor/lib/libmmcamera_ppbase_module.so
 vendor/lib/libmmcamera_ppeiscore.so
 vendor/lib/libmmcamera_qtech_f3l8yam_eeprom.so
@@ -980,38 +980,38 @@ vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so
 vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so
 vendor/lib/libmmcamera_sw2d_lib.so
 vendor/lib/libmmcamera_thread_services.so
-vendor/lib/libmmcamera_tintless_algo.so
-vendor/lib/libmmcamera_tintless_bg_pca_algo.so
+vendor/lib/libmmcamera_tintless_algo.so|913ba6a0f7c039c037e73dd8a12153a70fd5b25b
+vendor/lib/libmmcamera_tintless_bg_pca_algo.so|13b2019476cc7497ffec38215bfa81b0576df914
 vendor/lib/libmmcamera_trueportrait_lib.so
 vendor/lib/libmmcamera_truly_cma481_eeprom.so
 vendor/lib/libmmcamera_truly_cmb433_eeprom.so
-vendor/lib/libmmcamera_tuning.so
+vendor/lib/libmmcamera_tuning.so|d08d6912ebf02b6929826b4fe4de36e9ce54dbad
 vendor/lib/libmmcamera_tuning_lookup.so
 vendor/lib/libmmcamera_ubifocus_lib.so
 vendor/lib64/libmmcamera_cac3_lib.so
-vendor/lib64/libmmcamera_dbg.so
-vendor/lib64/libmmcamera_tintless_algo.so
-vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
+vendor/lib64/libmmcamera_dbg.so|e803179ee307d532307305a91d95810bd1ea516a
+vendor/lib64/libmmcamera_tintless_algo.so|949178b97c5c39f3ce1d4bc5327661ca685ed26a
+vendor/lib64/libmmcamera_tintless_bg_pca_algo.so|e47d0a7fbf506940df682b4ba3457282dbfc8bc9
 vendor/lib/libmmcamera2_c2d_module.so
-vendor/lib/libmmcamera2_cpp_module.so
-vendor/lib/libmmcamera2_dcrf.so
+vendor/lib/libmmcamera2_cpp_module.so|8d376760a19396ab54e1dad710a5bfe35ae6c34a
+vendor/lib/libmmcamera2_dcrf.so|7c55d9960f1db2fd79649527b03fe2b0c540e6d4
 vendor/lib/libmmcamera2_frame_algorithm.so
-vendor/lib/libmmcamera2_iface_modules.so
-vendor/lib/libmmcamera2_imglib_modules.so
+vendor/lib/libmmcamera2_iface_modules.so|fc4078f79abf5a74159803f45deda206361eef04
+vendor/lib/libmmcamera2_imglib_modules.so|31eb3a267516bef3f0515fb6e228e2317ffa5d02
 vendor/lib/libmmcamera2_is.so
 vendor/lib/libmmcamera2_isp_modules.so
-vendor/lib/libmmcamera2_mct.so
+vendor/lib/libmmcamera2_mct.so|00eb1298c0a21993e2a2de3d2a7e946ece06e82b
 vendor/lib/libmmcamera2_mct_shimlayer.so
 vendor/lib/libmmcamera2_pp_buf_mgr.so
-vendor/lib/libmmcamera2_pproc_modules.so
-vendor/lib/libmmcamera2_q3a_core.so
-vendor/lib/libmmcamera2_sensor_modules.so
-vendor/lib/libmmcamera2_stats_algorithm.so
-vendor/lib/libmmcamera2_stats_modules.so
+vendor/lib/libmmcamera2_pproc_modules.so|c32b3ea9aea83450365c1c7e0e0abfdece5e7f9c
+vendor/lib/libmmcamera2_q3a_core.so|ebe1bdb36ceb8966b0de3d82f286663270049b59
+vendor/lib/libmmcamera2_sensor_modules.so|d68c15cf80530a9a0bd2a00b80d16f2b16597ba3
+vendor/lib/libmmcamera2_stats_algorithm.so|b958d112ec0a55aca7e526e2bb1b4ffe9ae3f735
+vendor/lib/libmmcamera2_stats_modules.so|089229b4e11accdc5a747c37ed6b191681ffa852
 vendor/lib64/libmmcamera2_frame_algorithm.so
 vendor/lib64/libmmcamera2_is.so
-vendor/lib64/libmmcamera2_q3a_core.so
-vendor/lib64/libmmcamera2_stats_algorithm.so
+vendor/lib64/libmmcamera2_q3a_core.so|33a96b68ed0fcb48f9226bb6378276347c98d24a
+vendor/lib64/libmmcamera2_stats_algorithm.so|5df2e23f6019e86da7b9b1d6d4df41c22ad7046d
 
 # Camera firmware from MIUI Stable - V9.2.3.0.NDAMIEK
 vendor/firmware/cpp_firmware_v1_1_1.fw
