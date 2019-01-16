@@ -372,7 +372,7 @@ on post-fs-data
     write /sys/block/dm-2/queue/read_ahead_kb 2048
 
     #Create dir for TUI
-    mkdir /data/vendor/tui 0700 system system
+    mkdir /data/vendor/tui 0700 system drmrpc
 
     #Start move time data to /data/vendor once post-fs-data done
     start vendor.move_time_data
