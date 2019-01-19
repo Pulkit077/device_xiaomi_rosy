@@ -188,6 +188,7 @@ BOARD_ROOT_EXTRA_SYMLINKS := \
 TARGET_PER_MGR_ENABLED := true
 
 # Power
+TARGET_TAP_TO_WAKE_NODE := "/proc/gesture/onoff"
 TARGET_USES_INTERACTION_BOOST := true
 
 # Qualcomm
