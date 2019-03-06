@@ -322,7 +322,7 @@ firmware_directories /vendor/firmware_mnt/image/
 /dev/ramdump*             0640   system     system
 
 # Fingerprint device
-/dev/qbt1000              0660   system     system
+/dev/qbt*                 0660   system     system
 
 # Add device block for FRP
 /dev/block/platform/soc/7824900.sdhci/by-name/config    0600   system     system
