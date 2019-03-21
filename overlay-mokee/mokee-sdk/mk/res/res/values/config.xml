@@ -57,7 +57,7 @@
             8 - Last app
             9 - Toggle split screen
          This needs to match the enums in
-         sdk/src/java/org/lineageos/internal/util/DeviceKeysConstants.java.
+         sdk/src/java/org/mokee/internal/util/DeviceKeysConstants.java.
     -->
     <integer name="config_longPressOnAppSwitchBehavior">1</integer>
 </resources>

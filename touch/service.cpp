@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "vendor.lineage.touch@1.0-service.xiaomi_8996"
+#define LOG_TAG "vendor.mokee.touch@1.0-service.xiaomi_8996"
 
 #include <android-base/logging.h>
 #include <binder/ProcessState.h>
@@ -28,8 +28,8 @@ using android::status_t;
 using android::hardware::configureRpcThreadpool;
 using android::hardware::joinRpcThreadpool;
 
-using ::vendor::lineage::touch::V1_0::IKeyDisabler;
-using ::vendor::lineage::touch::V1_0::implementation::KeyDisabler;
+using ::vendor::mokee::touch::V1_0::IKeyDisabler;
+using ::vendor::mokee::touch::V1_0::implementation::KeyDisabler;
 
 int main() {
     sp<KeyDisabler> keyDisabler;
