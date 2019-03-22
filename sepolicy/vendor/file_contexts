@@ -12,12 +12,12 @@
 /persist/data/gxfp(/.*)?			u:object_r:gx_fpd_data_file:s0
 
 # HALs
-/(vendor|system/vendor)/bin/hw/android\.hardware\.drm@1\.0-service\.widevine         u:object_r:hal_drm_widevine_exec:s0
-/(vendor|system/vendor)/bin/hw/android\.hardware\.drm@1\.1-service\.clearkey         u:object_r:hal_drm_clearkey_exec:s0
-/(vendor|system/vendor)/bin/hw/vendor\.lineage\.touch@1\.0-service\.xiaomi_8953      u:object_r:hal_lineage_touch_default_exec:s0
+/vendor/bin/hw/android\.hardware\.drm@1\.0-service\.widevine         u:object_r:hal_drm_widevine_exec:s0
+/vendor/bin/hw/android\.hardware\.drm@1\.1-service\.clearkey         u:object_r:hal_drm_clearkey_exec:s0
+/vendor/bin/hw/vendor\.lineage\.touch@1\.0-service\.xiaomi_8953      u:object_r:hal_lineage_touch_default_exec:s0
 
 # Light HAL
-/(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.xiaomi_rosy u:object_r:hal_light_default_exec:s0
+/vendor/bin/hw/android\.hardware\.light@2\.0-service\.xiaomi_rosy u:object_r:hal_light_default_exec:s0
 
 # Location
 /data/vendor/location/xtra/socket_hal_xtra    u:object_r:location_socket:s0
@@ -26,7 +26,7 @@
 /firmware(/.*)?                                 u:object_r:firmware_file:s0
 
 # Rild
-/(vendor|system/vendor)/radio/qcril_database/qcril.db			u:object_r:rild_file:s0
+/vendor/radio/qcril_database/qcril.db			u:object_r:rild_file:s0
 
 # Sys files
 /sys/devices(/platform)?/soc/78b6000\.i2c/i2c-2/2-[0-9a-f]+/leds(/.*)?		u:object_r:sysfs_leds:s0
