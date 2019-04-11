@@ -323,6 +323,8 @@ firmware_directories /vendor/firmware_mnt/image/
 
 # Fingerprint device
 /dev/qbt*                 0660   system     system
+/sys/class/fts/touch_aoi aoi_set 0660 root system
+/sys/class/fts/touch_aoi power_set 0660 root system
 
 # Add device block for FRP
 /dev/block/platform/soc/7824900.sdhci/by-name/config    0600   system     system
