@@ -66,6 +66,7 @@ on early-boot
     write /sys/kernel/debug/bootkpi/kpi_values "M - Start adsp"
     write /sys/kernel/boot_adsp/boot 1
     write /sys/kernel/boot_cdsp/boot 1
+    write /sys/devices/virtual/cvp/cvp/boot 1
 
     # Graphics
     chown system graphics /sys/class/graphics/fb0/idle_time
