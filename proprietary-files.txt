@@ -1101,7 +1101,7 @@ lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so:vendor/lib64/libvendo
 lib64/libvendor.goodix.hardware.fingerprint@1.0.so:vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so|3767dc08155748e4153ccd8299f14aaac928817b
 -vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk|bf9c0b41849804f41955d484aa4f94215e03a16d
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service|866bc21e9de56a76d19c0a91e20486372da621d6
-vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc|3a24302bb747055c7318f879838d1684221de7a7
+vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc|ed6a454cfcd9c4183dc85d5d812fd19ae820072c
 vendor/etc/permissions/com.fingerprints.extension.xml|de711d8827e1d321b22b60fd75a204e8928f9c6d
 vendor/framework/com.fingerprints.extension.jar|87aa4c45e885ad87870899c7d79fa597704afd83
 vendor/lib/vendor.qti.hardware.fingerprint@1.0.so|75c72e927d7fa93593c843f5831ca9137e5eca6a
