@@ -370,10 +370,6 @@ OMX_ERRORTYPE mm_jpeg_session_create(mm_jpeg_job_session_t* p_session)
   pthread_condattr_init(&cond_attr);
   pthread_condattr_setclock(&cond_attr, CLOCK_MONOTONIC);
 
-  pthread_condattr_t cond_attr;
-  pthread_condattr_init(&cond_attr);
-  pthread_condattr_setclock(&cond_attr, CLOCK_MONOTONIC);
-
   pthread_mutex_init(&p_session->lock, NULL);
   pthread_cond_init(&p_session->cond, &cond_attr);
   pthread_condattr_destroy(&cond_attr);
