@@ -198,6 +198,10 @@ ro.telephony.default_network=22,22 \
 ro.telephony.iwlan_operation_mode=legacy \
 service.qti.ims.enabled=1
 
+# SurfaceFlinger
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+ro.surface_flinger.protected_contents=true
+
 # Time Services
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.timed.enable=true
