@@ -4,5 +4,7 @@ allow qti_init_shell proc_touchpanel:dir { r_dir_perms setattr };
 allow qti_init_shell proc_touchpanel:file { getattr setattr };
 allow qti_init_shell bluetooth_data_file:file r_file_perms;
 
+allow qti_init_shell { proc_swap sysfs sysfs_dm }:file write;
+
 # Required for FM
 allow qti_init_shell self:socket create;
