@@ -24,3 +24,21 @@ cc_library_shared {
         "libutils",
     ],
 }
+
+// Camera
+cc_library_shared {
+    name: "libcamshim",
+    proprietary: true,
+    defaults: ["hidl_defaults"],
+    srcs: [
+        "libcamshims.cpp",
+    ],
+    cflags: [
+        "-Werror",
+        "-Wextra",
+        "-Wall",
+    ],
+    shared_libs: [
+        "libutils",
+    ],
+}
