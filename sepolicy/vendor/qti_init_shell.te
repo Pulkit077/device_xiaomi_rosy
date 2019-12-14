@@ -4,3 +4,7 @@ allow qti_init_shell bluetooth_data_file:file r_file_perms;
 
 allow qti_init_shell proc_boot_reason:file { open read };
 allow qti_init_shell proc_swap:file rw_file_perms;
+
+# allow configuring slab debug options
+allow qti_init_shell sysfs_slab_zshandle_storeuser:file w_file_perms;
+allow qti_init_shell sysfs_slab_zspage_storeuser:file w_file_perms;
