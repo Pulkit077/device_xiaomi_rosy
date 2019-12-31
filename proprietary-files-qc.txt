@@ -49,8 +49,8 @@ vendor/lib64/libqtigef.so
 vendor/lib64/soundfx/libqcbassboost.so
 vendor/lib64/soundfx/libqcvirt.so
 
-# ANT+ (vendor)
-vendor/lib64/com.qualcomm.qti.ant@1.0.so
+# ANT+ (vendor) - from LA.UM.8.6.r1-02600-89xx.0
+vendor/lib64/com.qualcomm.qti.ant@1.0.so|1a7bee1627309c8eee55dab22b9f25c2302219ae
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
