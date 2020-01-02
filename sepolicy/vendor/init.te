@@ -1,1 +1,11 @@
 allow init proc_boot_reason:file r_file_perms;
+allow init wcnss_device:chr_file write;
+allow qti_init_shell {
+    fm_prop
+}:property_service set;
+
+# Allow init to bind mount loader config for media swcodec
+allow init system_file:file mounton;
+
+# LEDs
+allow init sysfs_leds:lnk_file read;
