@@ -344,7 +344,6 @@ vendor/bin/ipacm-diag
 vendor/lib/hw/keystore.msm8953.so|c56d3768e04fc180d844dbca94be8c27770e37d5
 vendor/lib64/hw/keystore.msm8953.so|9660e1c13a3589114cf18db58e5b3c3c9e14059b
 vendor/lib64/hw/keystore.msm8953.so
-
 # Listen - from LA.UM.8.6.r1-02600-89xx.0
 vendor/lib/hw/sound_trigger.primary.msm8953.so|b47051e826382b19894501471eb629173df6a967
 vendor/lib/libadpcmdec.so|be5fdf08a08b635816381e61b6bbf2874c62f613
