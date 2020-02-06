@@ -385,7 +385,8 @@ PRODUCT_PACKAGES += \
 # VNDK
 PRODUCT_PACKAGES += \
     vndk_package \
-    libstdc++.vendor
+    libstdc++.vendor \
+    com.android.vndk.current.on_vendor
 
 # Thermal
 PRODUCT_PACKAGES += \
