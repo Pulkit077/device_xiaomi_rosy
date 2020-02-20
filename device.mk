@@ -320,6 +320,9 @@ PRODUCT_COPY_FILES += \
 -include device/xiaomi/rosy/prop.mk
 
 # QMI
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/qmi/qmi_fw.conf:$(TARGET_COPY_OUT_VENDOR)/etc/qmi_fw.conf
+
 PRODUCT_PACKAGES += \
     libjson
 
