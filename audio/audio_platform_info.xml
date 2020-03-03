@@ -64,7 +64,7 @@
         <device name="SND_DEVICE_OUT_VOICE_TX" acdb_id="100"/>
         <device name="SND_DEVICE_OUT_HEADPHONES" acdb_id="52"/>
         <device name="SND_DEVICE_OUT_SPEAKER_AND_HEADPHONES" acdb_id="1058"/>
-        <device name="SND_DEVICE_IN_HANDSET_MIC" acdb_id="19"/>
+        <device name="SND_DEVICE_IN_HANDSET_MIC" acdb_id="4"/>
         <device name="SND_DEVICE_IN_HANDSET_DMIC" acdb_id="41"/>
         <device name="SND_DEVICE_IN_SPEAKER_MIC" acdb_id="35"/>
         <device name="SND_DEVICE_IN_SPEAKER_DMIC" acdb_id="37"/>
@@ -87,8 +87,6 @@
         <device name="SND_DEVICE_IN_TOP_MIC" acdb_id="11"/>
         <device name="SND_DEVICE_IN_FRONT_MIC" acdb_id="11"/>
         <device name="SND_DEVICE_IN_HANDSET_DMIC_MUSIC" acdb_id="21"/>
-        <device name="SND_DEVICE_IN_HANDSET_DMIC_AEC_NS" acdb_id="277"/>
-        <device name="SND_DEVICE_IN_SPEAKER_MIC_AEC_NS" acdb_id="293"/>
         <device name="SND_DEVICE_IN_HANDSET_DMIC_VOICE" acdb_id="533"/>
         <device name="SND_DEVICE_IN_HANDSET_DMIC_INTERVIEW" acdb_id="1045"/>
         <device name="SND_DEVICE_IN_HANDSET_DMIC_HD" acdb_id="2581"/>
