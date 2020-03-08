@@ -32,7 +32,8 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
 # Soong namespaces
-PRODUCT_SOONG_NAMESPACES += device/xiaomi/msm8953-common
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
 
 # Permissions
 PRODUCT_COPY_FILES += \
