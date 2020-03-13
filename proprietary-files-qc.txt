@@ -158,8 +158,8 @@ vendor/lib64/vendor.qti.hardware.data.latency@1.0.so|ae979b52234d7e965631394f6e1
 vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so|35ad6e08d00e8b1695964fa7d6ddbc521eda8628
 vendor/lib64/vendor.qti.latency@2.0.so|20a3037a1aea98f5f490b14c8f5620d2d3a0cf57
 
-# Charger
-vendor/bin/hvdcp_opti
+# Charger - from LA.UM.8.6.r1-03400-89xx.0
+vendor/bin/hvdcp_opti|2fb64d374314df12d6461ef61a6268042114dd9f
 
 # DPM - from LA.UM.8.6.r1-02900-89xx.0
 product/bin/dpmd|a70053cbaadbfdce93a85da4a9e55b096a75a83a
