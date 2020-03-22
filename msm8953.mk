@@ -285,6 +285,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
 
+# Poweroff charge
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/sbin/chargeonlymode:$(TARGET_COPY_OUT_SYSTEM)/bin/chargeonlymode
+
 # Properties
 -include device/xiaomi/msm8953-common/prop.mk
 
