@@ -6,6 +6,7 @@ persist.vendor.mwqem.				u:object_r:vendor_mwqem_prop:s0
 sys.listeners.registered			u:object_r:vendor_tee_listener_prop:s0
 sys.fp.goodix					u:object_r:fingerprint_prop:s0
 sys.fp.vendor					u:object_r:fingerprint_prop:s0
+vendor.powerhal.				u:object_r:power_prop:s0
 vendor.wlan.driver.ath				u:object_r:vendor_wifi_prop:s0
 vendor.wlan.driver.config			u:object_r:vendor_wifi_prop:s0
 wifi.active.interface				u:object_r:wifi_prop:s0

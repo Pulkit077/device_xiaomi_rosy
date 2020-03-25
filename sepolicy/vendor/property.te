@@ -1,5 +1,8 @@
 # mwqem property
 vendor_restricted_prop(vendor_mwqem_prop);
 
+# Power HAL
+type power_prop, property_type;
+
 # wlan-vendor prop
 type vendor_wifi_prop, property_type;
