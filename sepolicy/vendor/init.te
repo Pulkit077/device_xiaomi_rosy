@@ -13,3 +13,7 @@ allow init sysfs_leds:lnk_file read;
 
 # last_kmsg
 allow init proc_last_kmsg:file { r_file_perms setattr };
+
+# root directories
+allow init bt_firmware_file:filesystem getattr;
+allow init firmware_file:filesystem getattr;
