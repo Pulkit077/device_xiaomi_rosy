@@ -1,5 +1,8 @@
 set_prop(netmgrd, vendor_xlat_prop)
 
+#Allow set persist.vendor.data.qmipriod_load
+set_prop(netmgrd, vendor_radio_prop);
+
 userdebug_or_eng(`
   allow netmgrd diag_device:chr_file rw_file_perms;
 ')
