@@ -167,7 +167,8 @@ PRODUCT_PACKAGES += \
     libqdMetaData \
     libqdMetaData.vendor \
     libgenlock \
-    libtinyxml
+    libtinyxml \
+    vendor.display.config@2.0
 
 # Doze mode
 PRODUCT_PACKAGES += \
@@ -441,6 +442,7 @@ PRODUCT_COPY_FILES += \
 
 # Wi-Fi Display
 PRODUCT_PACKAGES += \
+    libdisplayconfig.qti \
     libnl \
     libstagefright_enc_common
 
