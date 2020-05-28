@@ -224,6 +224,10 @@ vendor/lib/libtrueportrait.so
 vendor/lib/libubifocus.so
 vendor/lib/libremosaic_daemon.so
 
+# Camera - from Hydrogen 7.0/NRD90M/V10.3.2.0.NBCCNXM
+vendor/lib/libllvd_sw_tnr.so|406895e2ae614ac84a62d1758bce1810b99c5cda
+vendor/lib/libmmcamera_sw_tnr.so|59b0f350eb0cfa85399c296af14ac680ca99705e
+
 # Camera actuators from MIUI Stable - V9.2.3.0.NDAMIEK
 vendor/lib/libactuator_ad5816g.so
 vendor/lib/libactuator_ad5823.so
