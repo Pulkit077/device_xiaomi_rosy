@@ -66,6 +66,11 @@ vendor/lib64/soundfx/libqcbassboost.so|4e45199a07afd3c49c20f3ff224b16c5ff68d04d
 vendor/lib64/soundfx/libqcreverb.so|3839275ec638720d7e0127e80f9105de8863810b
 vendor/lib64/soundfx/libqcvirt.so|37003334f2f10689e2f6f5913404a9793c9782e8
 
+# Audiosphere - from LA.UM.8.6.r1-04400-89xx.0
+etc/permissions/audiosphere.xml|3c6d8f14bd99e52a424282fd5d0a5b9b06485dea
+framework/audiosphere.jar|c1679f5aca56f0cb24745b3f7d219acd04833bed
+vendor/lib/soundfx/libasphere.so|4d0ccf1c282bb70619d20bf7d79021dc3815a579
+
 # Audio-ACDB - from rosy:8.1.0/OPM1.171019.026/V11.0.2.0.ODAMIXM
 vendor/etc/acdbdata/adsp_avs_config.acdb|ac0616af3b2d4f070c0e54c18126a877e528621b
 vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb|65bcc729599d5c509cbc4f192b54202cc8895690
