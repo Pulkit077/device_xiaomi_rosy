@@ -73,7 +73,6 @@ vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb|ac0f6d164cec18c2fef3992a6c22aca2bcf
 vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp|921ca227bc413a69c1ff0075f0a20c7f0ec86566
 
 # Bluetooth - from LA.UM.9.6.2.r1-02800-89xx.0
--system_ext/lib64/libbtconfigstore.so|ff297d1e8f1cebfa0fac8bc74827066c2be1c2f4
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|2401640a10df4de23f704b87c4adab2da9ed111d
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|f4ee3b2da2b08647447869ade86ec63f7340accc
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|ca038c77c3351a9a9ec2ce5bf3d4e4b1c6e6938c
