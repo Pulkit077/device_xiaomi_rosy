@@ -2094,10 +2094,10 @@ case "$target" in
                     do
                         echo 250 > $cpu_up_scale
                     done
-                    for cpu_min_freq in /sys/class/devfreq/soc:qcom,cpubw/min_freq
-                    do
-                        echo 1611 > $cpu_min_freq
-                    done
+                    #for cpu_min_freq in /sys/class/devfreq/soc:qcom,cpubw/min_freq
+                    #do
+                    #    echo 1611 > $cpu_min_freq
+                    #done
                 done
 
                 for gpu_bimc_io_percent in /sys/class/devfreq/soc:qcom,gpubw/bw_hwmon/io_percent
