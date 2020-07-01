@@ -49,8 +49,6 @@ vendor/lib64/soundfx/libqcvirt.so|e6ec0e8df6041f774caf4e1fc63a891ea465024b
 vendor/lib64/com.qualcomm.qti.ant@1.0.so|1a7bee1627309c8eee55dab22b9f25c2302219ae
 
 # Bluetooth - from LA.UM.8.6.r1-03400-89xx.0
--lib/libbtconfigstore.so|00d1330370a6ac6bd03938009998a23ce310b0cf
--lib64/libbtconfigstore.so|47b54b0ffcdec367df04bad1b632bde39d37f49f
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|365c3de57a8a655da6b0882bf5411558025883e1
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|1cbb9475e665e55827392c4e63e404e5056e84e2
