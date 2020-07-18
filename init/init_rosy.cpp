@@ -39,8 +39,9 @@
 #include "property_service.h"
 #include "log/log.h"
 
-char const *heapgrowthlimit;
+char const *heaptargetutilization;
 char const *heapminfree;
+char const *heapmaxfree;
 
 using android::init::property_set;
 
@@ -51,13 +52,15 @@ void check_device()
     sysinfo(&sys);
 
     if (sys.totalram > 2048ull * 1024 * 1024) {
-        // from - Stock rom
-        heapgrowthlimit = "256m";
-        heapminfree = "4m";
+        // from phone-xhdpi-4096-dalvik-heap.mk
+        heaptargetutilization = "0.6";
+        heapminfree = "8m";
+        heapmaxfree = "16m";
     } else {
-        // from - phone-xxhdpi-2048-dalvik-heap.mk
-        heapgrowthlimit = "192m";
-        heapminfree = "2m";
+        // from phone-xhdpi-2048-dalvik-heap.mk
+        heaptargetutilization = "0.75";
+        heapminfree = "512k";
+        heapmaxfree = "8m";
    }
 }
 
@@ -95,12 +98,12 @@ void vendor_load_properties()
     check_device();
     set_avoid_gfxaccel_config();
 
-    property_set("dalvik.vm.heapstartsize", "16m");
-    property_set("dalvik.vm.heapgrowthlimit", heapgrowthlimit);
+    property_set("dalvik.vm.heapstartsize", "8m");
+    property_set("dalvik.vm.heapgrowthlimit", "192m");
     property_set("dalvik.vm.heapsize", "512m");
-    property_set("dalvik.vm.heaptargetutilization", "0.75");
+    property_set("dalvik.vm.heaptargetutilization", heaptargetutilization);
     property_set("dalvik.vm.heapminfree", heapminfree);
-    property_set("dalvik.vm.heapmaxfree", "8m");
+    property_set("dalvik.vm.heapmaxfree", heapmaxfree);
 
     property_override("ro.product.model", "Redmi 5");
     property_override("ro.build.product", "rosy");
