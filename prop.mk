@@ -1,5 +1,5 @@
 #
-# system.prop for msm8953-common
+# system.prop for rosy
 #
 
 # Audio
@@ -81,7 +81,7 @@ persist.hwc.enable_vds=1 \
 persist.hwc.mdpcomp.enable=true \
 ro.opengles.version=196610 \
 ro.qualcomm.cabl=0 \
-ro.sf.lcd_density=480 \
+ro.sf.lcd_density=320 \
 ro.vendor.display.cabl=2 \
 sdm.debug.disable_skip_validate=1 \
 vendor.display.disable_skip_validate=1 \

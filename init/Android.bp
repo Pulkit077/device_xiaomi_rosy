@@ -15,9 +15,9 @@
 //
 
 cc_library_static {
-    name: "libinit_msm8953",
+    name: "libinit_rosy",
     recovery_available: true,
-    srcs: ["init_msm8953.cpp"],
+    srcs: ["init_rosy.cpp"],
     include_dirs: [
         "system/core/base/include",
         "system/core/init"

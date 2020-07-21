@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-VENDOR_PATH := device/xiaomi/msm8953-common
+DEVICE_PATH := device/xiaomi/rosy
 
 # Architecture
 TARGET_ARCH := arm64
@@ -44,11 +44,10 @@ BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE :=  2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
-TARGET_KERNEL_SOURCE := kernel/xiaomi/msm8953
-ifeq ($(TARGET_KERNEL_VERSION),4.9)
-BOARD_KERNEL_CMDLINE += androidboot.usbconfigfs=true
-TARGET_KERNEL_CLANG_COMPILE := true
-endif
+TARGET_KERNEL_ARCH := arm64
+TARGET_KERNEL_VERSION := 3.18
+TARGET_KERNEL_CONFIG := rosy-perf_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/rosy
 
 # ANT
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
@@ -83,7 +82,7 @@ TARGET_BOOTLOADER_BOARD_NAME := MSM8953
 TARGET_NO_BOOTLOADER := true
 
 # Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(VENDOR_PATH)/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 BOARD_HAVE_BLUETOOTH_QCOM := true
 BLUETOOTH_HCI_USE_MCT := true
 
@@ -145,19 +144,19 @@ USE_DEVICE_SPECIFIC_GPS := true
 TARGET_NO_RPC := true
 
 # Filesystem
-TARGET_FS_CONFIG_GEN := $(VENDOR_PATH)/config.fs
+TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
 # GPS
 USE_DEVICE_SPECIFIC_GPS := true
 TARGET_NO_RPC := true
 
 # HIDL
-DEVICE_MANIFEST_FILE := $(VENDOR_PATH)/manifest.xml
-DEVICE_MATRIX_FILE   := $(VENDOR_PATH)/compatibility_matrix.xml
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
+DEVICE_MATRIX_FILE   := $(DEVICE_PATH)/compatibility_matrix.xml
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(VENDOR_PATH):libinit_msm8953
-TARGET_RECOVERY_DEVICE_MODULES := libinit_msm8953
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_rosy
+TARGET_RECOVERY_DEVICE_MODULES := libinit_rosy
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
@@ -188,15 +187,11 @@ BOARD_USES_QCOM_HARDWARE := true
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 
 # Recovery
-ifeq ($(AB_OTA_UPDATER), true)
-TARGET_RECOVERY_FSTAB := $(VENDOR_PATH)/rootdir/fstab_AB.recovery.qcom
-else
-TARGET_RECOVERY_FSTAB := $(VENDOR_PATH)/rootdir/fstab.recovery.qcom
-endif
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/fstab.qcom
 
 # SELinux
 include device/qcom/sepolicy-legacy-um/sepolicy.mk
-BOARD_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy/vendor
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Wi-Fi
 BOARD_HAS_QCOM_WLAN := true
@@ -211,4 +206,4 @@ WIFI_HIDL_FEATURE_DISABLE_AP_MAC_RANDOMIZATION := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
--include vendor/xiaomi/msm8953-common/BoardConfigVendor.mk
+-include vendor/xiaomi/rosy/BoardConfigVendor.mk
