@@ -21,7 +21,7 @@
 #include "GloveMode.h"
 
 namespace vendor {
-namespace mokee {
+namespace lineage {
 namespace touch {
 namespace V1_0 {
 namespace implementation {
@@ -32,7 +32,7 @@ GloveMode::GloveMode() {
     mHasGloveMode = !access(kControlPath, F_OK);
 }
 
-// Methods from ::vendor::mokee::touch::V1_0::IGloveMode follow.
+// Methods from ::vendor::lineage::touch::V1_0::IGloveMode follow.
 Return<bool> GloveMode::isEnabled() {
     std::string buf;
 
@@ -60,5 +60,5 @@ Return<bool> GloveMode::setEnabled(bool enabled) {
 }  // namespace implementation
 }  // namespace V1_0
 }  // namespace touch
-}  // namespace mokee
+}  // namespace lineage
 }  // namespace vendor
