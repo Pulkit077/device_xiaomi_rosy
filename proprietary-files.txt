@@ -39,9 +39,6 @@ vendor/lib/libaudioalsa.so|58feb2c5cbc4ac6e23ef4896c87785bed8db3c80
 vendor/lib/libdrc.so|303d67b5bfea162ae994d3817de317258035c42a
 vendor/lib/libqtigef.so|80fb4a524d9d11c6e94c337ea263256f816f1f39
 vendor/lib/libsurround_3mic_proc.so|84a4d84fcf567554fb5174fc6d41310d864e5f8e
-vendor/lib/soundfx/libqcbassboost.so|a95549c66ebd8482b88b2018a577a5d8938618c2
-vendor/lib/soundfx/libqcreverb.so|db5a719488b70814a89e740eef6ae66df5ec95c9
-vendor/lib/soundfx/libqcvirt.so|08827068e632ed410a5dd6698d77450dc25b3657
 
 # Audio-ACDB - from rosy:8.1.0/OPM1.171019.026/V11.0.2.0.ODAMIXM
 vendor/etc/acdbdata/adsp_avs_config.acdb|ac0616af3b2d4f070c0e54c18126a877e528621b
