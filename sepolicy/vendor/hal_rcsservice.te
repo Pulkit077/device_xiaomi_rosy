@@ -1,3 +1,6 @@
+#add imsfactory to HIDl interface
+add_hwservice(hal_rcsservice, vendor_hal_imsfactory_hwservice)
+
 userdebug_or_eng(`
   allow hal_rcsservice diag_device:chr_file rw_file_perms;
 ')
