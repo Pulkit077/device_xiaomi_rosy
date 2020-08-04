@@ -1,0 +1,2 @@
+#allow bluetooth to make binder call to gpuservice
+binder_call(bluetooth, gpuservice);
