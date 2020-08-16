@@ -2,12 +2,17 @@ typeattribute mm-qcamerad binder_in_vendor_violators;
 typeattribute mm-qcamerad data_between_core_and_vendor_violators;
 
 binder_use(mm-qcamerad);
+set_prop(mm-qcamerad, camera_prop);
 
 allow mm-qcamerad camera_data_file:file write;
 allow mm-qcamerad sysfs:file { open read getattr };
 
+allow mm-qcamerad camera_prop:file { open read };
+
 allow mm-qcamerad camera_socket:dir w_dir_perms;
 allow mm-qcamerad camera_socket:sock_file { create unlink write };
+allow mm-qcamerad init:unix_stream_socket { read write };
+allow mm-qcamerad persist_file:dir { getattr read open search  };
 allow mm-qcamerad sysfs_graphics:file r_file_perms;
 allow mm-qcamerad camera_data_file:file create_file_perms;
 

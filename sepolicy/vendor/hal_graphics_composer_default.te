@@ -1,3 +1,5 @@
+allow hal_graphics_composer_default persist_file:dir search;
+
 userdebug_or_eng(`
   allow hal_graphics_composer_default diag_device:chr_file rw_file_perms;
 ')
