@@ -27,7 +27,13 @@
    IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+#include <android-base/properties.h>
+
 #include <sys/sysinfo.h>
+
+#include <stdlib.h>
+#define _REALLY_INCLUDE_SYS__SYSTEM_PROPERTIES_H_
+#include <sys/_system_properties.h>
 
 #include "vendor_init.h"
 #include "property_service.h"
@@ -55,6 +61,25 @@ void check_device()
    }
 }
 
+void property_override(char const prop[], char const value[])
+{
+    prop_info *pi;
+
+    pi = (prop_info*) __system_property_find(prop);
+    if (pi)
+        __system_property_update(pi, value, strlen(value));
+    else
+        __system_property_add(prop, strlen(prop), value, strlen(value));
+}
+
+void property_override_triple(char const product_prop[], char const system_prop[], char const vendor_prop[],
+    char const value[])
+{
+    property_override(product_prop, value);
+    property_override(system_prop, value);
+    property_override(vendor_prop, value);
+}
+
 void vendor_load_properties()
 {
     check_device();
@@ -65,4 +90,10 @@ void vendor_load_properties()
     property_set("dalvik.vm.heaptargetutilization", "0.75");
     property_set("dalvik.vm.heapminfree", heapminfree);
     property_set("dalvik.vm.heapmaxfree", "8m");
+
+    property_override("ro.product.model", "Redmi 5");
+    property_override("ro.build.product", "rosy");
+    property_override("ro.product.device", "rosy");
+    property_override("ro.build.description", "rosy-user 7.1.2 N2G47H V9.2.3.0.NDAMIEK release-keys");
+    property_override_triple("ro.build.fingerprint", "ro.system.build.fingerprint", "ro.vendor.build.fingerprint", "Xiaomi/rosy/rosy:7.1.2/N2G47H/V9.2.3.0.NDAMIEK:user/release-keys");
 }
