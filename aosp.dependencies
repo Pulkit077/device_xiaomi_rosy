@@ -1,0 +1,14 @@
+[
+   {
+      "remote":"github",
+      "branch":"ten",
+      "repository":"PixelExperience-Devices/kernel_xiaomi_rosy",
+      "target_path":"kernel/xiaomi/rosy"
+   },
+   {
+      "remote":"pixel-devices-bitbucket",
+      "branch":"ten",
+      "repository":"vendor_xiaomi_rosy",
+      "target_path":"vendor/xiaomi/rosy"
+   }
+]
