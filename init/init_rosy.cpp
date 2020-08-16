@@ -105,6 +105,6 @@ void vendor_load_properties()
     property_override("ro.product.model", "Redmi 5");
     property_override("ro.build.product", "rosy");
     property_override("ro.product.device", "rosy");
-    property_override("ro.build.description", "rosy-user 7.1.2 N2G47H V9.2.3.0.NDAMIEK release-keys");
-    property_override_triple("ro.build.fingerprint", "ro.system.build.fingerprint", "ro.vendor.build.fingerprint", "Xiaomi/rosy/rosy:7.1.2/N2G47H/V9.2.3.0.NDAMIEK:user/release-keys");
+    property_override("ro.build.description", "coral-user 10 QQ3A.200805.001 6578210 release-keys");
+    property_override_triple("ro.build.fingerprint", "ro.system.build.fingerprint", "ro.vendor.build.fingerprint", "google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys");
 }
