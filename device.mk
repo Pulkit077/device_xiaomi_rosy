@@ -382,6 +382,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libcutils_shim
 
+# Tethering
+PRODUCT_PACKAGES += \
+    TetheringConfigOverlay
+
 # TextClassifier smart selection model files
 PRODUCT_PACKAGES += \
     textclassifier.bundle1
