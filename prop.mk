@@ -22,6 +22,7 @@ vendor.audio.offload.buffer.size.kb=64 \
 vendor.audio.offload.gapless.enabled=true \
 vendor.audio.offload.multiaac.enable=true \
 vendor.audio.offload.multiple.enabled=false \
+vendor.audio.offload.passthrough=false \
 vendor.audio.offload.track.enable=true \
 vendor.audio.parser.ip.buffer.size=0 \
 vendor.audio.playback.mch.downsample=true \
