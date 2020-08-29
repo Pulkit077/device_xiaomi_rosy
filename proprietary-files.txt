@@ -68,27 +68,14 @@ vendor/lib64/soundfx/libqcvirt.so|37003334f2f10689e2f6f5913404a9793c9782e8
 
 # Audio-ACDB - from rosy:8.1.0/OPM1.171019.026/V11.0.2.0.ODAMIXM
 vendor/etc/acdbdata/adsp_avs_config.acdb|ac0616af3b2d4f070c0e54c18126a877e528621b
-vendor/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb|38c6e7d42ae194d238198e33fdb1c3f525e5a326
-vendor/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_General_cal.acdb|aa13ec31e85bae208ab5a9723dc1aa6dff041b6d
-vendor/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Global_cal.acdb|c608e52607c2389eb3f52f2053c98438ebcdff10
-vendor/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Handset_cal.acdb|2bb7c0bfac4308d4c112d8e3fee55d8e995a8176
-vendor/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Hdmi_cal.acdb|be7fc11d6342ccd931e7901886ca01eaa207e539
-vendor/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Headset_cal.acdb|9129d83bc6363a2a67d6a7a216cc2fd95c64a84d
-vendor/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Speaker_cal.acdb|0507d4aded452d3c948f588240109c77b5f91372
-vendor/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_workspaceFile.qwsp|90182e8da8b719099bfc1db6b6d70623307f55ff
-vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb|69d97d52c5ff2a47ef13aeded96af7c5c78e3b13
-vendor/etc/acdbdata/MTP/MTP_General_cal.acdb|6f6fe990add3c3d5e096a345dad151a134c437b8
-vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb|cd62dfc80137bee694529f3206f97d7f5c4b1978
-vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb|dee549610c24d9e35012dc883278ab7a58ce99bb
-vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb|a44c60fe0d65c73366e35c5c19d0195c77c458f0
-vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb|42c1c655c3b0038208a626132dfb063ae57fef03
-vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb|ac0f6d164cec18c2fef3992a6c22aca2bcf16f08
-vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp|921ca227bc413a69c1ff0075f0a20c7f0ec86566
-
-# Audio Dirac - from xiaomi
-vendor/etc/diracmobile.config|d781cd6798a7481a8f7128d144abfb2b8794212d
-vendor/lib/libDiracAPI_SHARED.so|42b49679d38eca93fead05ea06ddbdc8108fd4b1
-vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
+vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb|65bcc729599d5c509cbc4f192b54202cc8895690
+vendor/etc/acdbdata/QRD/QRD_General_cal.acdb|cfb993cb4c2435b3357a5133dd09ca3b4f0fa4f3
+vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb|30253c8db3f154fabdf446c48662ca941e25b50a
+vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb|01c59794086a19ef0d89b5ef7bfe722e7aad0c48
+vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb|d4b6f4ed08e54792ade8ffdecd40eed1107d05a3
+vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb|5b9871bb85ccf0402627e5af04f3921a70f39b76
+vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb|9f8d82e293387c2853082c993142903232c161e2
+vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp|8d17da6505a0d1d1fcf67930fdc69a300028ec65
 
 # Bluetooth - from LA.UM.8.6.r1-04400-89xx.0
 -lib/libbtconfigstore.so|eeab5725457493c975bd6d2f2790fec778eaf2fc
