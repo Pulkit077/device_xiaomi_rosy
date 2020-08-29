@@ -1497,8 +1497,7 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so|4df2c790a197e7e8
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so|87ae478a5ad00967e7ba9106ef85cb17ca4f14ac
 vendor/radio/qcril_database/qcril.db|861dc2702acfa940090bbde95ee216ff88f3f82d
 
-# Radio (CarrierSettings) - from Flame QQ3A.200605.001
--product/priv-app/CarrierSettings/CarrierSettings.apk;PRESIGNED|e890d51089359bf54b1deb2150ebc5f8448590d3
+# Radio (CarrierSettings) - from Coral QQ3A.200805.001
 product/etc/CarrierSettings/airtel_in.pb|94f13d946eedad0007bb05304052f421aae39e2f
 product/etc/CarrierSettings/att5g_us.pb|bdc854c1ed406edd9ffba00dbfa8983046bcd4c6
 product/etc/CarrierSettings/att_us.pb|64afe6b3618e007d157275c5a0b87c126c2c5f97
@@ -1527,6 +1526,7 @@ product/etc/CarrierSettings/fizz_ca.pb|3835313a26dc6e01d2999f08ef3607b52e4bdece
 product/etc/CarrierSettings/freedommobile_ca.pb|07be5c34f3a4b409c505b155402590c5447e7827
 product/etc/CarrierSettings/h3_at.pb|b667dcc508c2e0b4862c90553c5979b4c103b587
 product/etc/CarrierSettings/h3_gb.pb|52a9050f89c27cfd58a4ba96fe394e35f3d0e93f
+product/etc/CarrierSettings/h3_se.pb|3c60b076194a227acdd39266e8b5e7b0c4ad5af8
 product/etc/CarrierSettings/idea_in.pb|a9ecb95c0194d2489c9c1cde1076fa64c0539035
 product/etc/CarrierSettings/idmobile_gb.pb|ca1ecba81093a4159810ee33ec825985dc089525
 product/etc/CarrierSettings/kddi_jp.pb|4493a4b323f58613f803c4c1614be4da9905e497
@@ -1546,12 +1546,13 @@ product/etc/CarrierSettings/rakuten_jp.pb|1d423bb20e1fb0a873f4174eaa8940c607031b
 product/etc/CarrierSettings/rjio_in.pb|5e0ccfbc602cf49bc07c209f2555c812422f3dac
 product/etc/CarrierSettings/rogers_ca.pb|32bc0be7940d0054b518f264881edb4f7aaeff6f
 product/etc/CarrierSettings/sfr_fr.pb|ad9d7b3c0547d3f054e88a2586665df46e09b68b
+product/etc/CarrierSettings/shaw_ca.pb|53c9d410aa2152eaccaea3748826a0c8312a10bb
 product/etc/CarrierSettings/singtel_sg.pb|cbf3bedb6f357e1d3fb9f8b46cdd6b721b38e448
 product/etc/CarrierSettings/softbank_jp.pb|f168447d8bd8a2cbaf283352b33c7339838eaece
 product/etc/CarrierSettings/solomobile_ca.pb|64cbb523f1ff5aff46601c6a109310f82f059242
 product/etc/CarrierSettings/spectrum_us.pb|b3a82b3b5f0cebd10d0b5bc65133d2bc97c73ba1
-product/etc/CarrierSettings/sprintprepaid_us.pb|13250b4b8236b300a3babefbb88ab12f5ab2e38d
 product/etc/CarrierSettings/sprint_us.pb|845501f8a3b592d6908275ea245b3017b3b28923
+product/etc/CarrierSettings/sprintprepaid_us.pb|13250b4b8236b300a3babefbb88ab12f5ab2e38d
 product/etc/CarrierSettings/sprintwholesale_us.pb|72474097eb31e66644d960e5e2983e8d7086151b
 product/etc/CarrierSettings/starhub_sg.pb|dd474d7058df099b44d5425608497097d503cd8f
 product/etc/CarrierSettings/swisscom_ch.pb|135a79ceb385821aea1bbedee82220035ce15fda
@@ -1565,9 +1566,10 @@ product/etc/CarrierSettings/telia_no.pb|3d08d26b53e1254f00e3f21c7c50a233239d7afe
 product/etc/CarrierSettings/telia_se.pb|99e219e6808c19306533248f5aed09cd79a1b9d7
 product/etc/CarrierSettings/telstra_au.pb|b937ffd337fb3a2fc0a2d9f55ddea0b2bebf68b0
 product/etc/CarrierSettings/telus_ca.pb|09003862a6ae3627b03f5ff9319fbdd256907980
+product/etc/CarrierSettings/three_dk.pb|f140f8e5b2afda711d28f9a054fc6f1b49d33b97
 product/etc/CarrierSettings/tim_it.pb|da7dee03496077494ea8d19cab41f03386093460
 product/etc/CarrierSettings/tmobile_nl.pb|71d245fd6939a1d2ae9b5da899913f16ba2cc8b3
-product/etc/CarrierSettings/tmobile_us.pb|7ae1219514ffa6e18168b1f5d69e249c0d022472
+product/etc/CarrierSettings/tmobile_us.pb|cee2856afc73cda546f15f8d95720bad282a8b5a
 product/etc/CarrierSettings/tracfonetmo_us.pb|381a224ea4a77ff5053e03c1ffbf112d8e8d94c7
 product/etc/CarrierSettings/tracfoneverizon_us.pb|4080991a43ec3bff867f798b9006ee3ebc6bb613
 product/etc/CarrierSettings/twm_tw.pb|b8b3fc569a899a53cec51600933429e7364e9da9
@@ -1586,6 +1588,7 @@ product/etc/CarrierSettings/vodafone_it.pb|83f5f91756955115c7a53c47d0d436c9911ba
 product/etc/CarrierSettings/vodafone_nl.pb|e923681a3b2d22859ee66ba04f10287102a0e70a
 product/etc/CarrierSettings/vodafone_tr.pb|ef129657f63c8a31a24c9e367804569650681f0a
 product/etc/CarrierSettings/xfinity_us.pb|e5788888b8863588f37d8ef3d587ab388eb3b4ff
+-product/priv-app/CarrierSettings/CarrierSettings.apk;PRESIGNED|e890d51089359bf54b1deb2150ebc5f8448590d3
 
 # Radio-IMS - from daisy:10/QKQ1.191002.002/V11.0.4.0.QDLMIXM
 lib/libdiag_system.so|05e9a693a78b22c6c2dc581f723d0b2cf62f53cb
