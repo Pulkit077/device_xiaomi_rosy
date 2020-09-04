@@ -1779,8 +1779,3 @@ vendor/lib/libwfdhdcpcp.so|a87af0f216f9761d513bab6337783a691b02fd3f
 vendor/lib/libwfdmmservice.so|f180f820e507d7ed2676b0d66d6d63cb74458563
 vendor/lib/libwfdmodulehdcpsession.so|4800ec57f1a546200389b98221145a310c5d6aca
 vendor/lib64/libwfdhdcpcp.so|2d625e86673e3f4e469a12b5316c18f822506534
-
-# Misc
-product/etc/res/animation.txt:product/etc/res/values/charger/animation.txt
-product/etc/res/battery_scale.png:product/etc/res/images/charger/battery_scale.png
-product/etc/res/battery_font.png:product/etc/res/images/charger/battery_font.png
