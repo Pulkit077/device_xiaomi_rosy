@@ -6,7 +6,7 @@
       "target_path":"kernel/xiaomi/rosy"
    },
    {
-      "remote":"pixel-devices-bitbucket",
+      "remote":"pixel-devices-blobs",
       "branch":"ten",
       "repository":"vendor_xiaomi_rosy",
       "target_path":"vendor/xiaomi/rosy"
