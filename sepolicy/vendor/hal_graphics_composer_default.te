@@ -1,3 +1,8 @@
+typeattribute hal_graphics_composer_default data_between_core_and_vendor_violators;
+
+allow hal_graphics_composer_default mnt_vendor_file:dir r_dir_perms;
+allow hal_graphics_composer_default mnt_vendor_file:file r_file_perms;
+
 allow hal_graphics_composer_default persist_file:dir search;
 
 userdebug_or_eng(`
