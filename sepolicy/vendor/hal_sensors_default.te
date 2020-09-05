@@ -1,3 +1,8 @@
+typeattribute hal_sensors_default data_between_core_and_vendor_violators;
+
+allow hal_sensors_default mnt_vendor_file:dir r_dir_perms;
+allow hal_sensors_default mnt_vendor_file:file rw_file_perms;
+
 allow hal_sensors_default persist_file:dir { getattr search };
 
 userdebug_or_eng(`

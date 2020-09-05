@@ -10,4 +10,7 @@ allow tee gx_fpd_data_file:file create_file_perms;
 allow tee system_data_file:dir create_dir_perms;
 #allow tee system_file:file rx_file_perms;
 
+allow tee mnt_vendor_file:dir r_dir_perms;
+allow tee mnt_vendor_file:file rw_file_perms;
+
 allow tee persist_file:dir r_dir_perms;
