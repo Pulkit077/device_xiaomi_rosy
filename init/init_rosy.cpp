@@ -43,12 +43,8 @@ char const *heaptargetutilization;
 char const *heapminfree;
 char const *heapmaxfree;
 
-using android::init::property_set;
-
-void check_device()
-{
+void check_device() {
     struct sysinfo sys;
-
     sysinfo(&sys);
 
     if (sys.totalram > 2048ull * 1024 * 1024) {
@@ -61,23 +57,21 @@ void check_device()
         heaptargetutilization = "0.75";
         heapminfree = "512k";
         heapmaxfree = "8m";
-   }
+    }
 }
 
-void property_override(char const prop[], char const value[])
-{
-    prop_info *pi;
+void property_override(char const prop[], char const value[], bool add = true) {
+    auto pi = (prop_info *) __system_property_find(prop);
 
-    pi = (prop_info*) __system_property_find(prop);
-    if (pi)
+    if (pi != nullptr) {
         __system_property_update(pi, value, strlen(value));
-    else
+    } else if (add) {
         __system_property_add(prop, strlen(prop), value, strlen(value));
+    }
 }
 
 void property_override_triple(char const product_prop[], char const system_prop[], char const vendor_prop[],
-    char const value[])
-{
+    char const value[]) {
     property_override(product_prop, value);
     property_override(system_prop, value);
     property_override(vendor_prop, value);
@@ -89,7 +83,7 @@ void set_avoid_gfxaccel_config() {
 
     if (sys.totalram <= 3072ull * 1024 * 1024) {
         // Reduce memory footprint
-        property_set("ro.config.avoid_gfx_accel", "true");
+        property_override("ro.config.avoid_gfx_accel", "true");
     }
 }
 
@@ -98,12 +92,12 @@ void vendor_load_properties()
     check_device();
     set_avoid_gfxaccel_config();
 
-    property_set("dalvik.vm.heapstartsize", "8m");
-    property_set("dalvik.vm.heapgrowthlimit", "192m");
-    property_set("dalvik.vm.heapsize", "512m");
-    property_set("dalvik.vm.heaptargetutilization", heaptargetutilization);
-    property_set("dalvik.vm.heapminfree", heapminfree);
-    property_set("dalvik.vm.heapmaxfree", heapmaxfree);
+    property_override("dalvik.vm.heapstartsize", "8m");
+    property_override("dalvik.vm.heapgrowthlimit", "192m");
+    property_override("dalvik.vm.heapsize", "512m");
+    property_override("dalvik.vm.heaptargetutilization", heaptargetutilization);
+    property_override("dalvik.vm.heapminfree", heapminfree);
+    property_override("dalvik.vm.heapmaxfree", heapmaxfree);
 
     property_override("ro.product.model", "Redmi 5");
     property_override("ro.build.product", "rosy");
