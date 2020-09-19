@@ -161,7 +161,8 @@ vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so|dfedda144d19622e3e579186033da2b
 vendor/lib64/vendor.qti.latency@2.0.so|72645a214e8675680862af236420d8195651f29d
 
 # Camera
-vendor/bin/mm-qcamera-daemon
+lib/libprotobuf-cpp-full-rosy.so|c1b7f624445be5f16daa0f5da03b31b0eea2c52d
+vendor/bin/mm-qcamera-daemon|bad713dc424d548f6e463f04617c9bb429fea4db
 vendor/lib/libllvd_smore.so
 vendor/lib/libChamomilePA.so
 vendor/lib64/libChamomilePA.so
