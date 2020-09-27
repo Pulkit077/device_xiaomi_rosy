@@ -26,6 +26,7 @@
 
 # Legacy root dirs
 /firmware(/.*)?                                 u:object_r:firmware_file:s0
+/persist(/.*)?                                  u:object_r:mnt_vendor_file:s0
 
 # Rild
 /vendor/radio/qcril_database/qcril.db			u:object_r:rild_file:s0
