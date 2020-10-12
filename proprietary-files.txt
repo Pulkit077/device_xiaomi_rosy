@@ -1571,7 +1571,7 @@ product/lib64/libimscamera_jni.so|41fd9faa10818c9f7c5a14d372a07f79b0ca0daa
 product/lib64/libimsmedia_jni.so|86ff68440540c40834c2e17261f178f7de50549e
 product/lib64/vendor.qti.imsrtpservice@2.0.so|6ef5cd72d34c20e82cb0e58681a4aae9b0dac99a
 product/lib64/vendor.qti.imsrtpservice@2.1.so|6dbe703a5a8389c342008c950aaec7a3a260a055
--product/priv-app/ims/ims.apk|e90a2a756b88be132e79951ded3f57eaf0226e54
+-product/priv-app/ims/ims.apk|9c4ca91e0ec7a567d22251d7ca0640abf13fdd7b
 vendor/bin/imsdatadaemon|d7318cd17c1ea5e0788d70a4a273b8bc6d23b8ab
 vendor/bin/imsqmidaemon|e2a3b1795627529de7bbe06d3e6036c85934a426
 vendor/bin/imsrcsd|df719bd1ccb6cbf253b7c2043f3627453e636d11
