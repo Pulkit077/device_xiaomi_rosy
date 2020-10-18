@@ -23,6 +23,8 @@ type rild_file, file_type, vendor_file_type;
 # Rmt
 type debugfs_rmt, debugfs_type, fs_type;
 
+# sysfs
+type sysfs_disk_stat, fs_type, sysfs_type;
+
 # Touchscreen
 type proc_touchpanel, fs_type, sysfs_type, proc_type;
-
