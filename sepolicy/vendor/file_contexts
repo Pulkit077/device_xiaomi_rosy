@@ -12,7 +12,6 @@
 # HALs
 /vendor/bin/hw/android\.hardware\.drm@1\.2-service\.widevine         u:object_r:hal_drm_widevine_exec:s0
 /vendor/bin/hw/android\.hardware\.drm@1\.2-service\.clearkey         u:object_r:hal_drm_clearkey_exec:s0
-/vendor/bin/hw/vendor\.lineage\.touch@1\.0-service\.xiaomi_8953      u:object_r:hal_lineage_touch_default_exec:s0
 
 # IR
 /dev/spidev6\.1				u:object_r:spidev_file:s0
