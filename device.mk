@@ -132,6 +132,7 @@ PRODUCT_PACKAGES += \
     camera.msm8953 \
     libfui \
     libmm-qcamera \
+    libui_shim \
     Snap \
     camera.device@3.2-impl \
     vendor.qti.hardware.camera.device@1.0 \

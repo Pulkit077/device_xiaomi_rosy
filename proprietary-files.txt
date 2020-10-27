@@ -966,7 +966,7 @@ vendor/lib/libmmcamera_paaf_lib.so
 vendor/lib/libmmcamera_pdaf.so|0e60d7259663e802e2cd56afb477153c40712aea
 vendor/lib/libmmcamera_pdafcamif.so|b78b79d1e0211adfb06a704ba45bb92256360034
 vendor/lib/libmmcamera_ppbase_module.so
-vendor/lib/libmmcamera_ppeiscore.so|78a6473bdafcee5ce45f5c364039ddd1f8e1221b
+vendor/lib/libmmcamera_ppeiscore.so|dd9206cfbbd6f2d5837c77326366da4b4f9af53d
 vendor/lib/libmmcamera_qtech_f3l8yam_eeprom.so
 vendor/lib/libmmcamera_qtech_f5670bq_eeprom.so
 vendor/lib/libmmcamera_quadracfa.so
