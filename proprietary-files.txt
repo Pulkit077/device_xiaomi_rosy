@@ -161,7 +161,7 @@ vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so|dfedda144d19622e3e579186033da2b
 vendor/lib64/vendor.qti.latency@2.0.so|72645a214e8675680862af236420d8195651f29d
 
 # Camera
-lib/libprotobuf-cpp-full-rosy.so|c1b7f624445be5f16daa0f5da03b31b0eea2c52d
+lib/libprotobuf-cpp-full-rosy.so:vendor/lib/libprotobuf-cpp-full-rosy.so|c1b7f624445be5f16daa0f5da03b31b0eea2c52d
 vendor/bin/mm-qcamera-daemon|a851b418aa6873e569a957dec9ddb100f0d9fdea
 vendor/lib/libllvd_smore.so
 vendor/lib/libChamomilePA.so
@@ -174,7 +174,7 @@ vendor/lib/libmorpho_easy_hdr.so
 vendor/lib/libmorpho_hdr_checker.so
 vendor/lib/libmorpho_panorama_gp.so
 vendor/lib64/libmorpho_panorama_gp.so
-vendor/lib/libmpbase.so
+vendor/lib/libmpbase.so|f6f0a3ad248aa3caf17b5f90fa26fe529476cf7f
 vendor/lib/libchromaflash.so
 vendor/lib/libflash_gpio.so
 vendor/lib/libflash_pmic.so
@@ -184,10 +184,10 @@ vendor/lib/libjpegehw.so
 vendor/lib/libmmjpeg.so
 vendor/lib/libmmqjpeg_codec.so
 vendor/lib/libmmqjpegdma.so
-vendor/lib/libmmsw_detail_enhancement.so
+vendor/lib/libmmsw_detail_enhancement.so|86d9f44c0b3c7d6f7a945beae73f7e07a0f70ff0
 vendor/lib/libmmsw_math.so
 vendor/lib/libmmsw_opencl.so
-vendor/lib/libmmsw_platform.so
+vendor/lib/libmmsw_platform.so|337d5b4b4cee8bdcca406853a1b2396452bf53d5
 vendor/lib/libois_lc898122.so
 vendor/lib/liboptizoom.so
 vendor/lib/libqomx_jpegdec.so
@@ -966,7 +966,7 @@ vendor/lib/libmmcamera_paaf_lib.so
 vendor/lib/libmmcamera_pdaf.so|0e60d7259663e802e2cd56afb477153c40712aea
 vendor/lib/libmmcamera_pdafcamif.so|b78b79d1e0211adfb06a704ba45bb92256360034
 vendor/lib/libmmcamera_ppbase_module.so
-vendor/lib/libmmcamera_ppeiscore.so
+vendor/lib/libmmcamera_ppeiscore.so|78a6473bdafcee5ce45f5c364039ddd1f8e1221b
 vendor/lib/libmmcamera_qtech_f3l8yam_eeprom.so
 vendor/lib/libmmcamera_qtech_f5670bq_eeprom.so
 vendor/lib/libmmcamera_quadracfa.so
@@ -1007,7 +1007,7 @@ vendor/lib/libmmcamera2_pproc_modules.so|c32b3ea9aea83450365c1c7e0e0abfdece5e7f9
 vendor/lib/libmmcamera2_q3a_core.so|ebe1bdb36ceb8966b0de3d82f286663270049b59
 vendor/lib/libmmcamera2_sensor_modules.so|d68c15cf80530a9a0bd2a00b80d16f2b16597ba3
 vendor/lib/libmmcamera2_stats_algorithm.so|b958d112ec0a55aca7e526e2bb1b4ffe9ae3f735
-vendor/lib/libmmcamera2_stats_modules.so|089229b4e11accdc5a747c37ed6b191681ffa852
+vendor/lib/libmmcamera2_stats_modules.so|9320b946ce086862e3cbdcac46afd2e839980f75
 vendor/lib64/libmmcamera2_frame_algorithm.so
 vendor/lib64/libmmcamera2_is.so
 vendor/lib64/libmmcamera2_q3a_core.so|33a96b68ed0fcb48f9226bb6378276347c98d24a
@@ -1089,27 +1089,27 @@ vendor/etc/init/init.qti.fm.rc|07cb64e2109a900eb6e1da1950fddba954d0f8d6
 
 # Fingerprint - from rosy:8.1.0/OPM1.171019.026/V11.0.2.0.ODAMIXM
 framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:vendor/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar|9899f8648755f72528128876c64f926887c853fc
-lib/android.hardware.biometrics.fingerprint@2.1.so|f060344dba35046ba4cc8e1946f6b7d9883ddf88
+lib/android.hardware.biometrics.fingerprint@2.1.so:vendor/lib/android.hardware.biometrics.fingerprint@2.1.so|f060344dba35046ba4cc8e1946f6b7d9883ddf88
 lib/libunwind.so:vendor/lib/libunwind.so|1ae75f79380a80a7ea23096250e90fe8854b1bdd
-lib64/android.hardware.biometrics.fingerprint@2.1.so|dbb611d0f8d6f757efe99d67ff335b0a48a705c9
+lib64/android.hardware.biometrics.fingerprint@2.1.so:vendor/lib64/android.hardware.biometrics.fingerprint@2.1.so|dbb611d0f8d6f757efe99d67ff335b0a48a705c9
 lib64/libunwind.so:vendor/lib64/libunwind.so|dc4dde0652ea158c4584db68337801188ec5ec75
 lib/libsoftkeymaster.so:vendor/lib/libsoftkeymaster.so|eb30065dcb28a60c9ecdadfc03ef80c63eeb29fa
-lib64/hw/goodixfingerprint.default.so:vendor/lib64/hw/goodixfingerprint.default.so|7ada5ab08fd70a6f62e1dae87610a8f3ae19e4f9
+lib64/hw/goodixfingerprint.default.so:vendor/lib64/hw/goodixfingerprint.default.so|7ad2e110368c6f240ab496d63b32cfc389a46960
 lib64/libgf_ca.so:vendor/lib64/libgf_ca.so|1e660ef345c1339455c86be2dfac3375e12c6957
 lib64/libgf_hal.so:vendor/lib64/libgf_hal.so|5fc203e4706c6f30bba5183552f2575ffce5d9f9
-lib64/libgoodixfingerprintd_binder.so:vendor/lib64/libgoodixfingerprintd_binder.so|ce75913a17a4bd70889cda947a07eeb75856c0c4
+lib64/libgoodixfingerprintd_binder.so:vendor/lib64/libgoodixfingerprintd_binder.so|64c4dd469056ef33d7f8249b7d32914ebfdd92fd
 lib64/libsoftkeymaster.so:vendor/lib64/libsoftkeymaster.so|97c5607ff9a484b4af967651ed0b1699b2aa98e5
-lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so:vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so|48b46a7c66f8df3de45176a8eac570b12acf67f8
-lib64/libvendor.goodix.hardware.fingerprint@1.0.so:vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so|371690003d4a74a79ed025a553a16a3d6aa59502
+lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so:vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so|f5a37d3cadeb109beb3caed88f9effebd0d4bb99
+lib64/libvendor.goodix.hardware.fingerprint@1.0.so:vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so|3767dc08155748e4153ccd8299f14aaac928817b
 -vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk|bf9c0b41849804f41955d484aa4f94215e03a16d
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service|866bc21e9de56a76d19c0a91e20486372da621d6
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc|49ebdf8c8d15e7af157730a77f8e415155b7379d
 vendor/etc/permissions/com.fingerprints.extension.xml|de711d8827e1d321b22b60fd75a204e8928f9c6d
 vendor/framework/com.fingerprints.extension.jar|87aa4c45e885ad87870899c7d79fa597704afd83
-vendor/lib/vendor.qti.hardware.fingerprint@1.0.so|00ec59d13f71af807f8d46daa2197f539ca02669
+vendor/lib/vendor.qti.hardware.fingerprint@1.0.so|75c72e927d7fa93593c843f5831ca9137e5eca6a
 vendor/lib64/hw/fpcfingerprint.default.so|a78408bdf0833a70666bf0eb7449399dfc6952b4
-vendor/lib64/com.fingerprints.extension@1.0.so|265a7037215306e9b1e58ff87507d68d221e7feb
-vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so|fc6d21a90fb860bd6f8e8df3bd19691d50d94ad7
+vendor/lib64/com.fingerprints.extension@1.0.so|3ddbd2a151d417c877ea79686eb0c0f99f925e44
+vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so|8cfebb5c7bfe3bd9537e91c7094d7b87bc828f9f
 
 # Firmware - from rosy:8.1.0/OPM1.171019.026/V11.0.2.0.ODAMIXM
 vendor/firmware/a225p5_pm4.fw|02e5fb26c121d388104bc6a0f31811dfa91f1828

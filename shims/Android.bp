@@ -6,3 +6,21 @@ cc_library {
     ],
     shared_libs: ["libcutils"],
 }
+
+// libbinder
+cc_library_shared {
+    name: "libbinder_gdxfp",
+    proprietary: true,
+    defaults: ["hidl_defaults"],
+    srcs: [
+        "libbinder_gdxfp.cpp",
+    ],
+    cflags: [
+        "-Werror",
+        "-Wextra",
+        "-Wall",
+    ],
+    shared_libs: [
+        "libutils",
+    ],
+}
