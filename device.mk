@@ -130,6 +130,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service \
     camera.msm8953 \
+    libfui \
     libmm-qcamera \
     Snap \
     camera.device@3.2-impl \
@@ -178,6 +179,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     FMRadio \
     libfmjni
+
+# Fingerprint
+PRODUCT_PACKAGES += \
+    libbacktrace-vendor \
 
 # Fwk-detect
 PRODUCT_PACKAGES += \
@@ -380,6 +385,7 @@ PRODUCT_COPY_FILES += \
 
 # Shims
 PRODUCT_PACKAGES += \
+    libbinder_gdxfp \
     libcutils_shim
 
 # Tethering
