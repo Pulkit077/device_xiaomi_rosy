@@ -182,7 +182,7 @@ on boot
     write /dev/cpuset/system-background/cpus 0-3
     write /dev/cpuset/restricted/cpus 0-3
 
-    chown system system /sys/kernel/hbtp/display_pwr
+    #chown system system /sys/kernel/hbtp/display_pwr
 
 # access permission for wlan
     chown system system /mnt/vendor/persist/WCNSS_qcom_wlan_nv.bin
