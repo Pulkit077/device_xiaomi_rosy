@@ -22,4 +22,4 @@
 /devices/soc/7000000.ssusb/7000000.dwc3/xhci-hcd.0.auto*     auto	auto    defaults							wait,voldmanaged=usb:auto
 
 # zram
-/dev/block/zram0                                none         swap       defaults	zramsize=1610612736,max_comp_streams=8
+/dev/block/zram0                                none         swap       defaults	zramsize=1610612736
