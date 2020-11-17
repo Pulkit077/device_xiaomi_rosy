@@ -1,3 +1,5 @@
+allow cnd hal_slmadapter_hwservice:hwservice_manager find;
+
 allow cnd wifi_prop:file { read open getattr };
 
 userdebug_or_eng(`
