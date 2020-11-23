@@ -85,7 +85,6 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.effect@6.0-impl \
     android.hardware.bluetooth.audio@2.0-impl \
     android.hardware.soundtrigger@2.2-impl \
-    android.hardware.soundtrigger@2.2-service \
     audio.a2dp.default \
     audio.bluetooth.default \
     audio.primary.msm8953 \
@@ -138,12 +137,10 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.5 \
     camera.msm8953 \
     libfui \
-    libmm-qcamera \
     libui_shim \
     Snap \
     camera.device@3.2-impl \
-    vendor.qti.hardware.camera.device@1.0 \
-    vendor.qti.hardware.camera.device@1.0_vendor
+    vendor.qti.hardware.camera.device@1.0
 
 # ConsumerIr
 PRODUCT_PACKAGES += \
@@ -159,15 +156,12 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@2.0-impl-2.1 \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
-    copybit.msm8953 \
     gralloc.msm8953 \
     hwcomposer.msm8953 \
     memtrack.msm8953 \
     libdisplayconfig \
-    liboverlay \
     libqdMetaData \
     libqdMetaData.vendor \
-    libgenlock \
     libtinyxml \
     vendor.display.config@2.0
 
@@ -300,7 +294,6 @@ PRODUCT_PACKAGES += \
     libOmxEvrcEnc \
     libOmxG711Enc \
     libOmxQcelp13Enc \
-    libOmxSwVencHevc \
     libOmxVdec \
     libOmxVenc \
     libstagefrighthw
@@ -418,11 +411,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
     libcld80211 \
-    libqsap_sdk \
-    libQWiFiSoftApCfg \
     libwpa_client \
     hostapd \
-    dhcpcd.conf \
     WifiOverlay \
     wificond \
     wpa_supplicant \
