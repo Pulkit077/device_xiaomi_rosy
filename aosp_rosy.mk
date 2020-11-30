@@ -12,6 +12,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 # Inherit some common PixelExperience stuff
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# Pixel customization
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_INCLUDE_STOCK_ARCORE := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+
 # Inherit from rosy device
 $(call inherit-product, device/xiaomi/rosy/device.mk)
 
