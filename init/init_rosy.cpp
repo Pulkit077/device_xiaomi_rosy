@@ -70,13 +70,6 @@ void property_override(char const prop[], char const value[], bool add = true) {
     }
 }
 
-void property_override_triple(char const product_prop[], char const system_prop[], char const vendor_prop[],
-    char const value[]) {
-    property_override(product_prop, value);
-    property_override(system_prop, value);
-    property_override(vendor_prop, value);
-}
-
 void set_avoid_gfxaccel_config() {
     struct sysinfo sys;
     sysinfo(&sys);
@@ -98,10 +91,4 @@ void vendor_load_properties()
     property_override("dalvik.vm.heaptargetutilization", heaptargetutilization);
     property_override("dalvik.vm.heapminfree", heapminfree);
     property_override("dalvik.vm.heapmaxfree", heapmaxfree);
-
-    property_override("ro.product.model", "Redmi 5");
-    property_override("ro.build.product", "rosy");
-    property_override("ro.product.device", "rosy");
-    property_override("ro.build.description", "redfin-user 11 RD1A.201105.003.C1 6886399 release-keys");
-    property_override_triple("ro.build.fingerprint", "ro.system.build.fingerprint", "ro.vendor.build.fingerprint", "google/redfin/redfin:11/RD1A.201105.003.C1/6886399:user/release-keys");
 }
