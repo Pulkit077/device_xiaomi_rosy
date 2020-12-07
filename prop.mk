@@ -98,7 +98,6 @@ sys.display-size=1920x1080
 
 # DPM
 PRODUCT_PROPERTY_OVERRIDES += \
-persist.vendor.dpm.feature=11 \
 persist.vendor.dpm.loglevel=0 \
 persist.vendor.dpm.nsrm.bkg.evt=3955 \
 persist.vendor.dpmhalservice.enable=1

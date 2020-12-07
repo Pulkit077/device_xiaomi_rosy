@@ -184,6 +184,9 @@ TARGET_PER_MGR_ENABLED := true
 TARGET_PROVIDES_POWERHAL := true
 TARGET_TAP_TO_WAKE_NODE := "/proc/gesture/onoff"
 
+# Properties
+TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/system_ext.prop
+
 # Qualcomm
 BOARD_USES_QCOM_HARDWARE := true
 
