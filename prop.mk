@@ -269,6 +269,10 @@ persist.vendor.ims.disableDebugLogs=1 \
 persist.vendor.ims.disableSigHandler=1 \
 persist.vendor.ims.disableQXDMLogs=1
 
+# Shutdown
+PRODUCT_PRODUCT_PROPERTIES += \
+ro.build.shutdown_timeout=2
+
 # SurfaceFlinger
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 ro.surface_flinger.protected_contents=true \
