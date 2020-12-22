@@ -1331,19 +1331,19 @@ vendor/lib64/vendor.qti.hardware.perf@1.0.so|8858021553ea41933cdaaa4a68e9d4d1560
 vendor/lib64/vendor.qti.hardware.perf@2.0.so|9353709cc2e2af8c4edd3967b5362ede79a72805
 vendor/lib64/vendor.qti.hardware.perf@2.1.so|2a827e3cc784b8c80dd313b825a998f3076ab66f
 
-# Peripheral - from LA.UM.8.6.r1-04700-89xx.0
-vendor/bin/pm-proxy|2ac2d0e897ccb4c9a96b6a4cd3d66c2ef66c5b61
-vendor/bin/pm-service|68a46996bcb9014ebc948990fd943c40206dd8f2
-vendor/lib/libperipheral_client.so|7c096cff421a96be6490e1f004a57ee3b6b6e088
-vendor/lib64/libperipheral_client.so|fe796ff65665d341ddaa5847c26504b96a8c78ee
+# Peripheral - from LA.UM.9.6.2.r1-03600-89xx.0
+vendor/bin/pm-proxy|4d9a24cf5d90f2f320fb838a190fcef9e070ef57
+vendor/bin/pm-service|212168358c65533c434e54be7b6fed0fd02a099c
+vendor/lib/libperipheral_client.so|76dc87152bd06e0291fbde2f6bf3b8b14325b604
+vendor/lib64/libperipheral_client.so|8cb65f4c93719767048dd7b1b845473fe6074ff7
 
-# Power-off alarm - from LA.UM.8.6.r1-04700-89xx.0
--product/app/PowerOffAlarm/PowerOffAlarm.apk|c214e1f7de878aeebe642857d6283bbeca0c7a3e
-vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|42c161f4b3033ee2ce33ec3e505031e9137577e7
-vendor/bin/power_off_alarm|22e0d6e5cab225cb430b2c860f480b43103a4701
+# Power-off alarm - from LA.UM.9.6.2.r1-03600-89xx.0
+-product/app/PowerOffAlarm/PowerOffAlarm.apk|d00cdfa02d6fcaea819e4cb7eb8ba502bc92be4c
+vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|6f58edbe898a0582b02b688ec8a47a57a50707ec
+vendor/bin/power_off_alarm|a22dad49a912473d92bf9c111ef7de6dd927b6f2
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|a03a9a1c818595b19272ea6ffb466e23a7fc3b05
-vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|cbf2dd1cd5cbf0dbb90f1563a77bc7fee608fb2e
-vendor/lib64/vendor.qti.hardware.alarm@1.0.so|680d4ad1999c8db44ee7d6240dda4ec1873e4c4d
+vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|0119fa4d87505bc5d9426ec8ffe56d9dd3bc9e4f
+vendor/lib64/vendor.qti.hardware.alarm@1.0.so|c7c418cfc889a89ea4f21bf828f626c75a2017c3
 
 # QMI - from LA.UM.8.6.2.r1-08400-89xx.0
 etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
@@ -1637,11 +1637,11 @@ vendor/lib64/libsensor_reg.so|b977629681598d927830ed99986e818c01c2d34a
 vendor/lib64/libsensor_user_cal.so|a9cd76f06c02e23cb7f1552aa7d51567259faa47
 vendor/lib64/sensors.ssc.so|3642d92d56cd7b21720ff9d11a008040c16e5c5d
 
-# TUI - from LA.UM.8.6.r1-04700-89xx.0
-vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|05c0a47f24e38b14fc7c1ccfa64c585692277ee5
+# TUI - from LA.UM.9.6.2.r1-03600-89xx.0
+vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|e8d97981d09a4e34907d13bcbbd10f03572c9218
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
-vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|19932d88afdf0351d7bfb6dee19a171d85bc1fde
-vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|7343cf8a20fb8e72e17b014cda7b5ae85841354a
+vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|cd060cfb909be6d1cb2aabd5cd53fffa01d34be5
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|960561ba01e28777e099294fb0a9a749e2b2a775
 
 # VNDK
 vendor/lib/vndk-sp/libcutils.so|7276c71299f501f1de8469b8bf1baffcf60180f3
@@ -1653,11 +1653,11 @@ vendor/bin/thermal-engine|60cbc090088553b1e6ca93d1156f3815d00ef387
 -vendor/lib64/libthermalclient.so|c36b6baf6e82a73e7afaf52589dada5248a69daf
 vendor/lib64/libthermalioctl.so|1d6587245c7e7148638f14254e2f61f6b5552857
 
-# Time services - from LA.UM.8.6.r1-04700-89xx.0
--vendor/app/TimeService/TimeService.apk|c935b678fdaed033513f044f6492361c3370f9f0
-vendor/bin/time_daemon|d2e3ab15de0f269426c513883fb2425586423306
+# Time services - from LA.UM.9.6.2.r1-03600-89xx.0
+-vendor/app/TimeService/TimeService.apk|1a5f39aa2969feee50ff81ec870b5e2669ae515e
+vendor/bin/time_daemon|a27ac4aeafb41158b96046edbd553ae76835b4ed
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
-vendor/lib64/libtime_genoff.so|b056a9bc0ab6642369eda0ce3b097b036da2b24e
+vendor/lib64/libtime_genoff.so|3f57de1aeb7aa113a0a579cebed85ab4405b9b49
 
 # Wi-Fi
 vendor/bin/wcnss_service
