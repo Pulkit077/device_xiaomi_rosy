@@ -72,30 +72,24 @@ vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb|42c1c655c3b0038208a626132dfb063ae57
 vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb|ac0f6d164cec18c2fef3992a6c22aca2bcf16f08
 vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp|921ca227bc413a69c1ff0075f0a20c7f0ec86566
 
-# Bluetooth - from LA.UM.8.6.r1-04400-89xx.0
--lib/libbtconfigstore.so|eeab5725457493c975bd6d2f2790fec778eaf2fc
--lib64/libbtconfigstore.so|abbfd1a5e773fba69dccb3121861ef3fec2cdab9
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|063d4838548e0f3546b509ece621e5f97b51bed0
-vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
-vendor/lib/hw/audio.bluetooth_qti.default.so|f99c2de8d7e5746ad777a758512b2a364462d59c
-vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|6e7a96552358a75769187d59b9c98469a07a2948
-vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|688065b7b8902d29a820aab3f5cc5dc584325423
-vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|e7efde96f1751fd7308568634380002fa325f4eb
-vendor/lib/libbluetooth_audio_session_qti.so|00e1bad621e84f0d3b87a7e05e647d0ea4eecb5f
-vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so|2aff95e3eb070334bee674f3706c3790b9c2e2ca
-vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|e2ff653e1a5e9d6379fa1fee6824642c4a615ce4
-vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so|0ff482f72a05eb9e2a4617fe03ae9e737843c885
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|66f5b40d50e91be92d7ab3500641c9a5b3b2f367
-vendor/lib64/hw/audio.bluetooth_qti.default.so|a17474dec03b704cc9741c85f2f6aef62c5ad71e
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|6e2745a0161bc3ec6af8a694c348f7db14b1119f
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|4e188cd7cc009ced6af7901f357005623dd0875a
-vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|df20addad1f9c1c8b342aeee1ff9a5fbc5cf8bb8
-vendor/lib64/libbluetooth_audio_session_qti.so|ac99d03635322385bedf8db2a6e318b996349203
-vendor/lib64/libbt-hidlclient.so|4682c8711fe78bb73448b34c30181948989400bf
-vendor/lib64/libbtnv.so|143ba8a42154a26469b87243ae3e1cd5e9565b13
-vendor/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so|8c6895ee0f64c33b829ce28d20de1021bf3e9cca
-vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|237a97fc3d3332b1466583178b548dd1525479ef
-vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so|5677a85470b88400467410b9a264f56119b30046
+# Bluetooth - from LA.UM.9.6.2.r1-02800-89xx.0
+-system_ext/lib64/libbtconfigstore.so|ff297d1e8f1cebfa0fac8bc74827066c2be1c2f4
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|2401640a10df4de23f704b87c4adab2da9ed111d
+vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|f4ee3b2da2b08647447869ade86ec63f7340accc
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|ca038c77c3351a9a9ec2ce5bf3d4e4b1c6e6938c
+vendor/lib64/hw/audio.bluetooth_qti.default.so|e628e65d5c07c81ff96783217f8aaf46702aa992
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|b66dd9afad70780943187074abb332f84c6734d7
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so|a97a6c330c932176acee0bce820c6e737778aed4
+vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|2dd88fe287eb63058b5d2fe19277439b120882d2
+vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so|5a907028e9f5c570e06dfae94d339e6aae523e29
+vendor/lib64/libbluetooth_audio_session_qti.so|9260e1e8011a68205474299dbb10ffcfeb34ee3a
+vendor/lib64/libbt-hidlclient.so|1491414e874419d2df1529c511bd48e348cf53a8
+vendor/lib64/libbtnv.so|07e031527e60ce5e62a5017fd1d7ff83ef1aafcf
+vendor/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so|a6766f13b095a684b55ad69d33533b60741521f9
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|3281b131bf921fbdc00afe66cf2a0493a86b97a0
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|5de4a802667afa2c05b9c75ae6311fcd0c8b23f6
+vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so|c56149fe7f8653cd9ab8d16378953ddfa5a422b4
+vendor/lib64/vendor.qti.hardware.btconfigstore@2.0.so|7a045dc4bd958bf136f10c0d6628ef3498b9195d
 
 # Bluetooth-AptX - from crosshatch:10/QQ1A.191205.008/5974827
 product/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
@@ -1024,8 +1018,8 @@ vendor/firmware/cpp_firmware_v1_8_0.fw
 vendor/firmware/cpp_firmware_v1_10_0.fw
 vendor/firmware/cpp_firmware_v1_12_0.fw
 
-# Charger - from LA.UM.8.6.r1-04700-89xx.0
-vendor/bin/hvdcp_opti|72caa940cb12ee5e615eada949fd4e635971ad4e
+# Charger - from LA.UM.9.6.2.r1-02800-89xx.0
+vendor/bin/hvdcp_opti|b249fb84448a61daff60bf77ac4045f23f37fb8e
 
 # Consumerir - from rosy:8.1.0/OPM1.171019.026/V11.0.2.0.ODAMIXM
 vendor/lib/hw/consumerir.default.so|b836d25b42b12e88ab0ff4e47c08321a6ddc5285
@@ -1050,21 +1044,21 @@ vendor/etc/init/dpmQmiMgr.rc|67569302d3a8828a9118c835e5b69c51b0c8ac68
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|a70cfc1be3e06cde6318d6969e114429fe1950bb
 vendor/lib64/libdpmqmihal.so|3ec8ff45991cdb502e9297e049197d02e2c7e941
 
-# DRM - from LA.UM.8.6.r1-04700-89xx.0
-vendor/bin/qseecomd|e43054ef83d7d27a0b1958c693ae07fdac6d73e0
-vendor/lib/libQSEEComAPI.so|cfc57d8022dbac5b20249e5ce7137b0834a208a0
-vendor/lib64/libGPreqcancel.so|6f59015f1e340dd1c995f0008a5f282037d98867
-vendor/lib64/libGPreqcancel_svc.so|84783ffc4dc45a6934a2c87166842fd1d6c73ebe
-vendor/lib64/libQSEEComAPI.so|050e9cac4b5bd3c2fd2babc4c567987d7c6ce46b
-vendor/lib64/libSecureUILib.so|0716368746fb6b57257f5dc506c164938d221622
-vendor/lib64/libStDrvInt.so|c5413acfc1eb7218c0cff4085c8116e91252acca
-vendor/lib64/libdrmfs.so|e72d79579f78501486fbd0883ee620fcb0b726ca
-vendor/lib64/libdrmtime.so|7eaed4940c68505b312d26b26585bfc93bbd8d54
-vendor/lib64/libqisl.so|491ac949ab488299c7a1ae4fe8257ec0a6f994b1
-vendor/lib64/librpmb.so|8676fb7a57ed00555f7e14cf01b223e9b0fbc8a7
-vendor/lib64/libsecureui.so|f11cee0af2ed94a7929b33c8ba1b0893810ff12a
-vendor/lib64/libsecureui_svcsock.so|060bbd76ead3b3aeb323af0c7352f9445088d3fe
-vendor/lib64/libssd.so|33d717f793c2579e3bd17b5ce6534cb68c12887d
+# DRM - from LA.UM.9.6.2.r1-02800-89xx.0
+vendor/bin/qseecomd|8d86295e6ce2c21542f86626d7d31ae1aaa83338
+vendor/lib/libQSEEComAPI.so|a575beda5ab7bb62b04e39ee38430ffab4318dfa
+vendor/lib64/libGPreqcancel.so|cef7983d5aceb03b4c422731c838ead1a8f3fed4
+vendor/lib64/libGPreqcancel_svc.so|ed0618e97aad6e1539ca439222c23e3f4e64c9a0
+vendor/lib64/libQSEEComAPI.so|5deff2940a69bc476b39bab31c7eccb53d8cc685
+vendor/lib64/libSecureUILib.so|65652bb0d953a740d74b1ff2b4a9f685865946b5
+vendor/lib64/libStDrvInt.so|7c921ee6db896233f9ea03f1fb3a9b7d9434e7dc
+vendor/lib64/libdrmfs.so|165dc5dc6c5f3f6a943ad68d09e8cf35dd4e0eb9
+vendor/lib64/libdrmtime.so|bd9e29e14e965a360ff99b9c2fa1e28a1f79d1bf
+vendor/lib64/libqisl.so|529d7e20bb33147fe3404c1a58d266e49228046a
+vendor/lib64/librpmb.so|8bfe5cb6c9f2da12aea621843fd04721ba9ce9c9
+vendor/lib64/libsecureui.so|6b9283b14e11dfe5dbaf5edde814d865fb2a81cf
+vendor/lib64/libsecureui_svcsock.so|2232f56927964f10d41868919d94711930d50ed0
+vendor/lib64/libssd.so|2b774b619b0d36471541c2f929b69a3f56cbc1a4
 
 # DRM - from lmi V12.0.3.0.QJKMIXM
 vendor/lib64/libops.so|03dc247cbf3e75f8dedf05b779eb65006f7334cd
