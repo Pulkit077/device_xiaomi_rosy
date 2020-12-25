@@ -1302,6 +1302,7 @@ vendor/lib/libOmxWmaDec.so|bc2a4a87b538ccd6004d6269a42bbef9a84ad7c4
 vendor/lib/libmm-color-convertor.so|4e45f1923c74b5c61908b2720527c68056dff321
 vendor/lib/libmmosal.so|e23d6d1b2a035c08ffd7ac72d5241ebff37f0d14
 vendor/lib/libvqzip.so|f85628ea634df1c31d69380d960ad7ea3396e7b2
+vendor/lib64/libmmosal.so|e9fdb48163e92b089cea0c397723a8416436c272
 
 # Perf - from LA.UM.9.6.2.r1-03600-89xx.0
 system_ext/lib/vendor.qti.hardware.perf@2.0.so|bc98b90156a2cdd063e69544750a00860f96fa55
