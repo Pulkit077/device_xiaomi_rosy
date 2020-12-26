@@ -370,8 +370,7 @@ PRODUCT_COPY_FILES += \
 # Shims
 PRODUCT_PACKAGES += \
     libbinder_gdxfp \
-    libcamshim \
-    libcutils_shim
+    libcamshim
 
 # Tethering
 PRODUCT_PACKAGES += \
