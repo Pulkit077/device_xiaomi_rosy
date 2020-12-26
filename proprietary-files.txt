@@ -1025,24 +1025,25 @@ vendor/bin/hvdcp_opti|b249fb84448a61daff60bf77ac4045f23f37fb8e
 vendor/lib/hw/consumerir.default.so|b836d25b42b12e88ab0ff4e47c08321a6ddc5285
 vendor/lib64/hw/consumerir.default.so|c7f8fb64d8bda3b16f81700b6d0549e5e2d99531
 
-# DPM - from LA.UM.8.6.r1-04700-89xx.0
-product/bin/dpmd|6c511e3e4293705777b563b45d7c216207a6ead0
-product/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
-product/etc/init/dpmd.rc|7f95195a89fddce06b93006a737701270e91f669
-product/etc/permissions/com.qti.dpmframework.xml|f57aa37de402a2c239fdadb65ac044d364ec1114
-product/etc/permissions/dpmapi.xml|0991b3069308620cfcad53873e9f09af181b981d
-product/framework/com.qti.dpmframework.jar|e2cd9acebce2e507b14185e0f35a98b94a063072
-product/framework/dpmapi.jar|4696df9793ad676b305d53b5d7ce65ecf74771ad
-product/lib64/com.qualcomm.qti.dpm.api@1.0.so|a70cfc1be3e06cde6318d6969e114429fe1950bb
-product/lib64/libdpmctmgr.so|2e12d384caf2969d4137ceff25cef13781327abf
-product/lib64/libdpmfdmgr.so|97b2f505285ed372a9f3d8a13682ea4022dbd70a
-product/lib64/libdpmframework.so|fda89754b743d922367b26ca70a77b4d6fbdd7a1
-product/lib64/libdpmtcm.so|9f99848e2574d2302692446d5dd87cd90f972b0c
--product/priv-app/dpmserviceapp/dpmserviceapp.apk|68b6f0227ae0b065dff635f30bfdc3c23f90c395
-vendor/bin/dpmQmiMgr|577eee55aec626ff4e7d5a789ea1c98fc602e5c4
-vendor/etc/init/dpmQmiMgr.rc|67569302d3a8828a9118c835e5b69c51b0c8ac68
-vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|a70cfc1be3e06cde6318d6969e114429fe1950bb
-vendor/lib64/libdpmqmihal.so|3ec8ff45991cdb502e9297e049197d02e2c7e941
+# DPM - from LA.UM.9.6.2.r1-03600-89xx.0
+framework/tcmclient.jar|cdd1ea7143a5a7acc3909b5cfa706650179647c7
+system_ext/bin/dpmd|11ee284b40fb8276636520a3ca8e3558be914e62
+system_ext/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
+system_ext/etc/init/dpmd.rc|738b638ff04cda368e22c03e16baf90ba157a6fc
+system_ext/etc/permissions/com.qti.dpmframework.xml|c4b7ad0879d00c1eba4f3fe3a88ddb8aa153629a
+system_ext/etc/permissions/dpmapi.xml|9158c9789cc7135a685b3fb27f8cc27108b51fef
+system_ext/framework/com.qti.dpmframework.jar|96a29e28b3abffb9223daadd67459e3f5a3271df
+system_ext/framework/dpmapi.jar|2e2fbe2257a697b96a644c774136da0554430d3f
+system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so|7003110f7d18b164929960ee0a67797ca9a524fe
+system_ext/lib64/libdpmctmgr.so|268d69e2a07adbee4e212320a2b2c5a1d35ffe5a
+system_ext/lib64/libdpmfdmgr.so|22c24e9787dc0895021c2a9dae45d73f4c93027e
+system_ext/lib64/libdpmframework.so|e9ec52a13e7550ec65b00a7a2b5de36e16d950e4
+system_ext/lib64/libdpmtcm.so|d2af6381acd715b453ed65ceb3c72a94938f45d5
+-system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|74ec0d8e2ef3d7e3b0a730da9b97237921778ac4
+vendor/bin/dpmQmiMgr|4fe936478b0da1ee20c6222234b80d478a72cc2a
+vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
+vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|c5c893e86d38b8aa8cd277ccb8b011fb2f19995e
+vendor/lib64/libdpmqmihal.so|ffcd85e1f6bf7d54f37953edc2cb2c4a61fc894a
 
 # DRM - from LA.UM.9.6.2.r1-02800-89xx.0
 vendor/bin/qseecomd|8d86295e6ce2c21542f86626d7d31ae1aaa83338
