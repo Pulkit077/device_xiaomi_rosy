@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_rosy.mk
+    $(LOCAL_DIR)/lineage_rosy.mk
