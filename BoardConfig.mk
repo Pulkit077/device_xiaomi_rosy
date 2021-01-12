@@ -147,9 +147,6 @@ BOARD_ROOT_EXTRA_SYMLINKS := \
 # Peripheral manager
 TARGET_PER_MGR_ENABLED := true
 
-# Power
-TARGET_TAP_TO_WAKE_NODE := "/proc/gesture/onoff"
-
 # Properties
 TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/system_ext.prop
 
