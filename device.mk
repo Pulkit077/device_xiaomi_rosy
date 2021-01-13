@@ -98,6 +98,7 @@ PRODUCT_PACKAGES += \
     audio.usb.default \
     libaacwrapper \
     libaudio-resampler \
+    libnbaio \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
