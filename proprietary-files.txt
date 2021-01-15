@@ -1,27 +1,29 @@
-# ADSP - from LA.UM.8.6.r1-04700-89xx.0
-vendor/bin/adsprpcd|a5e878691577485c9f7ee33dfe02384a13f0a265
-vendor/lib/libadsprpc.so|e2b7d1be02dee781e4dc79c65aee005540cd7efa
-vendor/lib/libadsp_default_listener.so|6311c407e31742bd686e6a6fa5ab6ed4d27fb27a
-vendor/lib/libfastcvadsp_stub.so|996345605e1d631151a6b4e9cd9f65b2c7e82dac
-vendor/lib/libfastcvopt.so|32c7dfcec453cb1d71811edc914f1a90f91f9ec9
-vendor/lib/libmdsprpc.so|ded85bee973d086402208362ef30acd539a3cbed
-vendor/lib64/libadsprpc.so|765c9122d107a62f845ca59f3c5255b526a09566
-vendor/lib64/libadsp_default_listener.so|3f69a73528c8687607da617a549ec5a449af3cc0
-vendor/lib64/libfastcvadsp_stub.so|f101b66fa4a450b5af2e6aa9f7aaa28f9a876005
-vendor/lib64/libfastcvopt.so|9a08a782acfb280b81e0c492155aea5709577d75
-vendor/lib64/libmdsprpc.so|744c11799b8926e3b10c0f1da763b6ac1297b318
+# ADSP - from LA.UM.9.6.2.r1-03600-89xx.0
+vendor/bin/adsprpcd|b736b00857d64e74a3b9be887215124d186f95d5
+vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc|8f0eb84d3eb5fc0f683ef7b975b75044d56f513e
+vendor/lib/libadsp_default_listener.so|d34ee56137899b914b70d1933d6bdcabde8d8220
+vendor/lib/libadsprpc.so|a8dcd5087ab8f2e573cf4e5838b807b66c3ec304
+vendor/lib/libfastcvadsp_stub.so|70772d0bc39617430e27a21f89fccd93cc757185
+vendor/lib/libfastcvopt.so|bfda931000e8a8e7dd167d3c47677e5d092aedc8
+vendor/lib/libmdsprpc.so|bcd1d3ca6efac76b51fb3461b3574403ba6d46dd
+vendor/lib/libsdsprpc.so|ba6c25f039af4e7ab9d69d8bba694f0c8fa54c72
+vendor/lib64/libadsp_default_listener.so|aa3b51b544032a250ab02687c0200152f80a23dd
+vendor/lib64/libadsprpc.so|9c72ce03841cb6011ecdd78c894ee5e1c60a5b6d
+vendor/lib64/libfastcvadsp_stub.so|f4535845bc4f40e3cb8e79d090e5ed87b0acfbb0
+vendor/lib64/libfastcvopt.so|487fc5c4b486579c11af0570d4a99507099ee6f2
+vendor/lib64/libmdsprpc.so|f53a3e5486047e155728b9583dc85aaa0dab3801
+vendor/lib64/libsdsprpc.so|6fc471f5c49a94bfe06bc957c08062d310f841a9
 
-# ADSP-Modules - from LA.UM.8.6.r1-04700-89xx.0
-vendor/lib/rfsa/adsp/dirac_resource.dar|d9b3693eab8c520ef859236b8235752188b7cba0
+# ADSP-Modules - from LA.UM.9.6.2.r1-03600-89xx.0
+vendor/lib/rfsa/adsp/libadsp_fd_skel.so|677d2932dac248049f031fc5893163e22b49439a
 vendor/lib/rfsa/adsp/libapps_mem_heap.so|5c82ad9cfe3f30105d899e2a4e90cc7566f81252
-vendor/lib/rfsa/adsp/libdirac-capiv2.so|e56031dfaee094d5267e3cc16625cfceaa07cc27
 vendor/lib/rfsa/adsp/libdspCV_skel.so|628985174b0088bed21c866d7984d23855e5e150
-vendor/lib/rfsa/adsp/libfastcvadsp_skel.so|1ff4a48009e88435d93fd2b9b0c5ea59cedbb4f7
 vendor/lib/rfsa/adsp/libfastcvadsp.so|9818625bfa018f517e32a8f4a1e7fb4b255e5049
-vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so|f4d8675a46c5e52add8f8e90e35b29cd33ac582b
-vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so|b9f68e320d24e9c51871a2056e1f47239bd1cb40
-vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so|3e9c52069ff07e50191d3b3afb33b30409241ab6
-vendor/lib/rfsa/adsp/libscveT2T_skel.so|91b9200dbb982abf0d6b440668252d892a616f66
+vendor/lib/rfsa/adsp/libfastcvadsp_skel.so|1ff4a48009e88435d93fd2b9b0c5ea59cedbb4f7
+
+# ADSP-Modules (Dirac)
+vendor/lib/rfsa/adsp/dirac_resource.dar|d9b3693eab8c520ef859236b8235752188b7cba0
+vendor/lib/rfsa/adsp/libdirac-capiv2.so|e56031dfaee094d5267e3cc16625cfceaa07cc27
 
 # ANT - from LA.UM.8.6.r1-04700-89xx.0
 vendor/lib64/com.qualcomm.qti.ant@1.0.so|1a7bee1627309c8eee55dab22b9f25c2302219ae
@@ -1073,6 +1075,12 @@ vendor/bin/dpmQmiMgr|4fe936478b0da1ee20c6222234b80d478a72cc2a
 vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|c5c893e86d38b8aa8cd277ccb8b011fb2f19995e
 vendor/lib64/libdpmqmihal.so|ffcd85e1f6bf7d54f37953edc2cb2c4a61fc894a
+
+# DSP - from LA.UM.9.6.2.r1-03600-89xx.0
+vendor/bin/dspservice|c7809e32581d5c6efac65a3a7689f43526c17bb8
+vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc|fbf2bb38ca6bdddf98c7123da9e1f263a4eec55f
+vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|f060101b26d3674bb173e5fc95e118f56a8ac15d
+vendor/lib64/vendor.qti.hardware.dsp@1.0.so|5f30d9c5fff738e6194a36a5b93372fa32ec0471
 
 # DRM - from LA.UM.9.6.2.r1-03600-89xx.0
 vendor/bin/qseecomd|d69b343cd97ee7a464ad190fa7b92a8b4ad40d89
