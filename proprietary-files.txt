@@ -28,27 +28,20 @@ vendor/lib/rfsa/adsp/libdirac-capiv2.so|e56031dfaee094d5267e3cc16625cfceaa07cc27
 # ANT - from LA.UM.8.6.r1-04700-89xx.0
 vendor/lib64/com.qualcomm.qti.ant@1.0.so|1a7bee1627309c8eee55dab22b9f25c2302219ae
 
-# Audio - from LA.UM.8.6.r1-04700-89xx.0
-vendor/lib/libacdb-fts.so|6bbcdd34b8344964c54d0a072e63feec71673b7c
-vendor/lib/libacdbloader.so|d4a41a817ae856c0c727d6f9360c29ee0c2f410a
-vendor/lib/libacdbrtac.so|863cc396b3234bdb978b312bce7746ff1f1a6769
-vendor/lib/libadiertac.so|59bd9c9c2df081580088df25274cb0a196221b80
-vendor/lib/libadm.so|0bd0e69289c897a50fefe16a0d29b25289973171
-vendor/lib/libaudcal.so|dda994bbd37d3c178120791a911fb219a2ccb5ca
-vendor/lib/libaudioalsa.so|1c0615d720024b5bd7ac28bec13d37ab7102b57f
-vendor/lib/libdrc.so|55fc13d205ce3199de2cf1f9c1dab479909c15be
-vendor/lib/libqtigef.so|5630df4e52109c0602d441d5d63bd342d202faf4
-vendor/lib/libsurround_3mic_proc.so|aac9411dc243dfee813be038969c5337fe36b1ca
-vendor/lib/soundfx/libqcbassboost.so|5a958a54274211ba37a80df1007ea9ccab956e61
-vendor/lib/soundfx/libqcreverb.so|f4f2daa28161b2e8ebe3402cbb94f898b7210371
-vendor/lib/soundfx/libqcvirt.so|23b3204094df7ef4ffdd9003d3fc603ce8d57dd4
-vendor/lib64/libacdb-fts.so|9ad8551afa5a372b19ce295b61d5d9f8f7f69700
-vendor/lib64/libacdbloader.so|954efba4057678d92e915ac0c8b5c33b4173822d
-vendor/lib64/libacdbrtac.so|220366b0464fe4a8cb04e17feb8bd5da41cbe297
-vendor/lib64/libadiertac.so|87302b3eaa3bb2465c3823d5f9089f3030d9a7a5
-vendor/lib64/libaudcal.so|6964ecc9607ae9c05ee7b37cbff66c0b37bde216
-vendor/lib64/libaudioalsa.so|af924f5a37d3066a97175f1343ea5c9484689ee3
-vendor/lib64/libqtigef.so|e7f0dfa3cd7252310c9a01f2bc0e4074e6e78871
+# Audio - from LA.UM.9.6.2.r1-03600-89xx.0
+vendor/lib/libacdb-fts.so|fee2b1f0b93c28f5ef0a4d65736cca01c4275975
+vendor/lib/libacdbloader.so|2c64746b9862a61e2d6a9ddc20307d67c7e638dc
+vendor/lib/libacdbrtac.so|50f9c46c1ed2758338db567b00e8eee1889ab21a
+vendor/lib/libadiertac.so|5c80bbb7ae8fb329ec4c2518c4e336b010bd57dc
+vendor/lib/libadm.so|a5e6c65b7133440b4550234db4454e4c81627f66
+vendor/lib/libaudcal.so|1c9598d084940495067348a68c5ff85ded0a52bf
+vendor/lib/libaudioalsa.so|58feb2c5cbc4ac6e23ef4896c87785bed8db3c80
+vendor/lib/libdrc.so|303d67b5bfea162ae994d3817de317258035c42a
+vendor/lib/libqtigef.so|80fb4a524d9d11c6e94c337ea263256f816f1f39
+vendor/lib/libsurround_3mic_proc.so|84a4d84fcf567554fb5174fc6d41310d864e5f8e
+vendor/lib/soundfx/libqcbassboost.so|a95549c66ebd8482b88b2018a577a5d8938618c2
+vendor/lib/soundfx/libqcreverb.so|db5a719488b70814a89e740eef6ae66df5ec95c9
+vendor/lib/soundfx/libqcvirt.so|08827068e632ed410a5dd6698d77450dc25b3657
 
 # Audio-ACDB - from rosy:8.1.0/OPM1.171019.026/V11.0.2.0.ODAMIXM
 vendor/etc/acdbdata/adsp_avs_config.acdb|ac0616af3b2d4f070c0e54c18126a877e528621b
@@ -1319,11 +1312,9 @@ vendor/lib64/hw/vulkan.adreno.so|7d1aff44f59c8173150a4082ba7b3bfa35bc58e8
 vendor/lib/hw/keystore.msm8953.so|ff8b4bb3b6f3a7252faeb1ed647bc3c4fc684623
 vendor/lib64/hw/keystore.msm8953.so|1c0fd8bfd45877c40b72aa2714055cddd2104133
 
-# Listen - from LA.UM.8.6.r1-04700-89xx.0
-vendor/lib/libadpcmdec.so|be5fdf08a08b635816381e61b6bbf2874c62f613
-vendor/lib/libsmwrapper.so|1ab31b5378265784145defa47d50435029cf5f57
-vendor/lib/vendor.qti.voiceprint@1.0.so|ad4df37a1240290f2c1d678d751a0401509b343f
-vendor/lib64/vendor.qti.voiceprint@1.0.so|5c3794e4541cc916c03f5a2ba26c6c2f43149d16
+# Listen - from LA.UM.9.6.2.r1-03600-89xx.0
+vendor/lib/libadpcmdec.so|7a38d6b28b27cf663681ad077614a03164418f91
+vendor/lib/libsmwrapper.so|f0ee761c02c888e77d947bb87d162d9379bc1530
 
 # Media - from LA.UM.9.6.2.r1-03300-89xx.0
 lib/libFileMux.so|4e05cd5e9913311ad17543d204adcd6d60cc8754
