@@ -899,7 +899,6 @@ vendor/lib/libchromatix_sony_imx486_ii_zsl_preview_dw9714v.so
 vendor/lib/libchromatix_sony_imx486_ii_zsl_video_dw9714v.so
 
 # mmcamera from MIUI Stable - V9.2.3.0.NDAMIEK
-vendor/lib/libmmcamera_interface.so|3adeaef09f50887905faddd72d628c1517404acb
 vendor/lib/libmmcamera_atmel_at24c32e_eeprom.so
 vendor/lib/libmmcamera_cac3_lib.so
 vendor/lib/libmmcamera_chromaflash_lib.so
