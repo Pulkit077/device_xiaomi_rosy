@@ -161,10 +161,10 @@ PRODUCT_PACKAGES += \
     gralloc.msm8953 \
     hwcomposer.msm8953 \
     memtrack.msm8953 \
-    libdisplayconfig \
     libqdMetaData \
     libqdMetaData.vendor \
     libtinyxml \
+    vendor.display.config@1.0.vendor \
     vendor.display.config@2.0
 
 # Doze mode
