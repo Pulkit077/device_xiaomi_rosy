@@ -1236,7 +1236,6 @@ vendor/lib/libllvm-glnext.so|3aed42766f2eac2c8b873f99ba4ca68b9b49043c
 vendor/lib/libllvm-qcom.so|5868b21c7c7884289cfff1ade7af256ec633fa6a
 vendor/lib/libmm-hdcpmgr.so|985495bc86a198aa9ecb495c5a10a4aa10cfcadd
 vendor/lib/libpvr.so|69ae26434f9bc9329aa374f472671f567dfa38dd
-vendor/lib/librs_adreno.so|97756870564754d9cd6e6301a4f1a15f7a5a5711
 vendor/lib64/egl/eglSubDriverAndroid.so|cd1cb25bfd16f15e0d7c6495493359838a1b6e96
 vendor/lib64/egl/libEGL_adreno.so|da4b09fc0bf7c82c267d227dda812b46db52deb7
 vendor/lib64/egl/libGLESv1_CM_adreno.so|ebafbd6ce0caf448a5bcfd604cdfe115e3af520a
@@ -1256,7 +1255,6 @@ vendor/lib64/libllvm-glnext.so|ca92f5020a2ea1fca17568d8d74541bacf81cece
 vendor/lib64/libllvm-qcom.so|d85f358be888c5f562ef484be36db9934188f948
 vendor/lib64/libmm-hdcpmgr.so|cb689116359eff2a0a8bc56e3f6a085cca60e428
 vendor/lib64/libpvr.so|89d0c01ba47b077877f6c414d1eb2166106d2731
-vendor/lib64/librs_adreno.so|d8bee70cc12ab5c6a979427e24fb7843fddae08b
 
 # Graphics (Postprocessing) - from LA.UM.9.6.2.r1-03600-89xx.0
 etc/permissions/com.qti.snapdragon.sdk.display.xml|79a36c560f8cdbfeca03911fefc282bda25b2322
@@ -1278,6 +1276,16 @@ vendor/lib64/vendor.display.postproc@1.0.so|e56b66d744dd77bd87afbb30cab558acf157
 # Graphics (Qdutils) - from LA.UM.9.6.2.r1-03600-89xx.0
 vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so|24832c2eb82d500a98ecc24787270106202b7964
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so|7db1d6865fb1589e9e7f97c3e1c59ae5ab505ead
+
+# Graphics (RenderScript) - from LA.UM.8.6.2.r1-08400-89xx.0
+vendor/lib/libRSDriver_adreno.so|9822b808be17d2f9683edd8936d9bdf0f2bb78be
+vendor/lib/libbccQTI.so|428e8c5c5c86bce857a4c0deca2cd3797c775e2b
+vendor/lib/librs_adreno.so|95918d3371fdc82aa119cb5de81f60d6e45895bb
+vendor/lib/librs_adreno_sha1.so|8ba215e033ff4ed1049ae0418b897a97b7ca9cf6
+vendor/lib64/libRSDriver_adreno.so|dbeb4122053e468b8fe52496f8c93261945ffe99
+vendor/lib64/libbccQTI.so|42fdea81ea505ccadbf6d24af7ba37cf83760391
+vendor/lib64/librs_adreno.so|3d0a23777e7bdd979a0c84d9da731ae15d58af68
+vendor/lib64/librs_adreno_sha1.so|19ce2db0e1a10f2d4067eb1192351e3dbf429477
 
 # Graphics (SDM) - from LA.UM.9.6.2.r1-03600-89xx.0
 vendor/lib/libscalar.so|835649ab934f93d545059fd08040c6acbf7f3d1b
