@@ -5,6 +5,9 @@ allow init {
 
 allow init wcnss_device:chr_file write;
 
+# For mount tracefs tracefs /sys/kernel/tracing
+allow init debugfs_tracing_debug:dir mounton;
+
 # Allow init to bind mount loader config for media swcodec
 allow init system_file:file mounton;
 
