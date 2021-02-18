@@ -186,6 +186,11 @@ ro.gps.agps_provider=1
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 ro.iorapd.enable=false
 
+# LMKD
+PRODUCT_PRODUCT_PROPERTIES += \
+ro.config.low_ram=false \
+ro.lmk.log_stats=true
+
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
 av.debug.disable.pers.cache=1 \
