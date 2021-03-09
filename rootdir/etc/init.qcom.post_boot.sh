@@ -182,6 +182,10 @@ if [ $feature_id == 6 ]; then
 	echo 748800 > /sys/devices/system/cpu/cpu5/cpufreq/scaling_max_freq
 	echo 1017600 > /sys/devices/system/cpu/cpu6/cpufreq/scaling_max_freq
 	echo 1017600 > /sys/devices/system/cpu/cpu7/cpufreq/scaling_max_freq
+	echo 940800000 > /sys/class/devfreq/18321110.qcom,cpu0-cpu-l3-lat/min_freq
+	echo 1017600000 > /sys/class/devfreq/18321110.qcom,cpu0-cpu-l3-lat/max_freq
+	echo 940800000 > /sys/class/devfreq/18321110.qcom,cpu6-cpu-l3-lat/min_freq
+	echo 1017600000 > /sys/class/devfreq/18321110.qcom,cpu6-cpu-l3-lat/max_freq
 	echo 940800000 > /sys/class/devfreq/soc\:qcom,cpu0-cpu-l3-lat/min_freq
 	echo 1017600000 > /sys/class/devfreq/soc\:qcom,cpu0-cpu-l3-lat/max_freq
 	echo 940800000 > /sys/class/devfreq/soc\:qcom,cpu6-cpu-l3-lat/min_freq
@@ -208,6 +212,10 @@ elif [ $feature_id == 5 ]; then
 	echo 998400 > /sys/devices/system/cpu/cpu5/cpufreq/scaling_max_freq
 	echo 1708800 > /sys/devices/system/cpu/cpu6/cpufreq/scaling_max_freq
 	echo 1708800 > /sys/devices/system/cpu/cpu7/cpufreq/scaling_max_freq
+	echo 940800000 > /sys/class/devfreq/18321110.qcom,cpu0-cpu-l3-lat/min_freq
+	echo 1363200000 > /sys/class/devfreq/18321110.qcom,cpu0-cpu-l3-lat/max_freq
+	echo 940800000 > /sys/class/devfreq/18321110.qcom,cpu6-cpu-l3-lat/min_freq
+	echo 1363200000 > /sys/class/devfreq/18321110.qcom,cpu6-cpu-l3-lat/max_freq
 	echo 940800000 > /sys/class/devfreq/soc\:qcom,cpu0-cpu-l3-lat/min_freq
 	echo 1363200000 > /sys/class/devfreq/soc\:qcom,cpu0-cpu-l3-lat/max_freq
 	echo 940800000 > /sys/class/devfreq/soc\:qcom,cpu6-cpu-l3-lat/min_freq
@@ -234,6 +242,10 @@ elif [ $feature_id == 4 ] || [ $feature_id == 3 ]; then
 	echo 1593600 > /sys/devices/system/cpu/cpu5/cpufreq/scaling_max_freq
 	echo 1900800 > /sys/devices/system/cpu/cpu6/cpufreq/scaling_max_freq
 	echo 1900800 > /sys/devices/system/cpu/cpu7/cpufreq/scaling_max_freq
+	echo 940800000 > /sys/class/devfreq/18321110.qcom,cpu0-cpu-l3-lat/min_freq
+	echo 1363200000 > /sys/class/devfreq/18321110.qcom,cpu0-cpu-l3-lat/max_freq
+	echo 940800000 > /sys/class/devfreq/18321110.qcom,cpu6-cpu-l3-lat/min_freq
+	echo 1363200000 > /sys/class/devfreq/18321110.qcom,cpu6-cpu-l3-lat/max_freq
 	echo 940800000 > /sys/class/devfreq/soc\:qcom,cpu0-cpu-l3-lat/min_freq
 	echo 1363200000 > /sys/class/devfreq/soc\:qcom,cpu0-cpu-l3-lat/max_freq
 	echo 940800000 > /sys/class/devfreq/soc\:qcom,cpu6-cpu-l3-lat/min_freq
@@ -260,6 +272,10 @@ else
 	echo 1593600 > /sys/devices/system/cpu/cpu5/cpufreq/scaling_max_freq
 	echo 1900800 > /sys/devices/system/cpu/cpu6/cpufreq/scaling_max_freq
 	echo 1900800 > /sys/devices/system/cpu/cpu7/cpufreq/scaling_max_freq
+	echo 940800000 > /sys/class/devfreq/18321110.qcom,cpu0-cpu-l3-lat/min_freq
+	echo 1363200000 > /sys/class/devfreq/18321110.qcom,cpu0-cpu-l3-lat/max_freq
+	echo 940800000 > /sys/class/devfreq/18321110.qcom,cpu6-cpu-l3-lat/min_freq
+	echo 1363200000 > /sys/class/devfreq/18321110.qcom,cpu6-cpu-l3-lat/max_freq
 	echo 940800000 > /sys/class/devfreq/soc\:qcom,cpu0-cpu-l3-lat/min_freq
 	echo 1363200000 > /sys/class/devfreq/soc\:qcom,cpu0-cpu-l3-lat/max_freq
 	echo 940800000 > /sys/class/devfreq/soc\:qcom,cpu6-cpu-l3-lat/min_freq
