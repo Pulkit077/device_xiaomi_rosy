@@ -134,6 +134,12 @@ function 8917_sched_dcvs_eas()
 
         echo 960000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
     fi
+
+    if [ $KernelVersionA -ge 4 ] && [ $KernelVersionB -ge 19 ]; then
+        # memlat specific settings are moved to seperate file under
+        # device/target specific folder
+        setprop vendor.dcvs.prop 1
+    fi
 }
 
 function 8937_sched_dcvs_eas()
@@ -211,6 +217,12 @@ function 8937_sched_dcvs_eas()
 
         echo 960000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
         echo 768000 > /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq
+    fi
+
+    if [ $KernelVersionA -ge 4 ] && [ $KernelVersionB -ge 19 ]; then
+        # memlat specific settings are moved to seperate file under
+        # device/target specific folder
+        setprop vendor.dcvs.prop 1
     fi
 }
 
