@@ -99,9 +99,12 @@ PRODUCT_PACKAGES += \
     libaacwrapper \
     libaudio-resampler \
     libnbaio \
+    libhfp \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
+    libsndmonitor \
+    libspkrprot \
     libtinyalsa \
     libtinycompress \
     libtinyxml
