@@ -101,10 +101,4 @@ void vendor_load_properties()
     property_override("dalvik.vm.heaptargetutilization", heaptargetutilization);
     property_override("dalvik.vm.heapminfree", heapminfree);
     property_override("dalvik.vm.heapmaxfree", heapmaxfree);
-
-    property_override("ro.product.model", "Redmi 5");
-    property_override("ro.build.product", "rosy");
-    property_override("ro.product.device", "rosy");
-    property_override("ro.build.description", "redfin-user 11 RQ2A.210305.006 7119741 release-keys");
-    property_override_triple("ro.build.fingerprint", "ro.system.build.fingerprint", "ro.vendor.build.fingerprint", "google/redfin/redfin:11/RQ2A.210305.006/7119741:user/release-keys");
 }
