@@ -108,7 +108,8 @@ sys.display-size=1920x1080
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.vendor.dpm.loglevel=0 \
 persist.vendor.dpm.nsrm.bkg.evt=3955 \
-persist.vendor.dpmhalservice.enable=1
+persist.vendor.dpmhalservice.enable=1 \
+persist.vendor.mwqem.enable=1
 
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
