@@ -2732,6 +2732,11 @@ case "$target" in
                      echo 1 > /sys/devices/system/cpu/cpu4/online
 
                      if [ $KernelVersionA -ge 4 ] && [ $KernelVersionB -ge 19 ]; then
+
+                         # memlat specific settings are moved to seperate file under
+                         # device/target specific folder
+                         setprop vendor.dcvs.prop 1
+
                          # configure schedutil governor settings
                          # enable governor for perf cluster
                          echo "schedutil" > /sys/devices/system/cpu/cpufreq/policy0/scaling_governor
