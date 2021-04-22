@@ -71,4 +71,18 @@
          <ClustersInfo Id="1" NumCores="4" Type="big" />
 
     </Config2>
+    <Config3>
+
+         <TargetInfo
+             Target="sdm632"
+             NumClusters="2"
+             TotalNumCores="8"
+             SocIds="349,350"
+             SynCore="1"
+             MinCoreOnline="0" />
+
+         <ClustersInfo Id="0" NumCores="4" Type="little" />
+         <ClustersInfo Id="1" NumCores="4" Type="big" />
+
+    </Config3>
 </TargetConfig>
