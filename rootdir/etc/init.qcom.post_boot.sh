@@ -2838,6 +2838,11 @@ case "$target" in
                      echo 1 > /sys/devices/system/cpu/cpu0/online
 
                      if [ $KernelVersionA -ge 4 ] && [ $KernelVersionB -ge 19 ]; then
+
+                         # memlat specific settings are moved to seperate file under
+                         # device/target specific folder
+                         setprop vendor.dcvs.prop 1
+
                          echo "schedutil" > /sys/devices/system/cpu/cpufreq/policy0/scaling_governor
                          echo 0 > /sys/devices/system/cpu/cpufreq/policy0/schedutil/up_rate_limit_us
                          echo 0 > /sys/devices/system/cpu/cpufreq/policy0/schedutil/down_rate_limit_us
