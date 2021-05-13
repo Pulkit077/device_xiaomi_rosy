@@ -5,8 +5,6 @@ allow ueventd self:capability sys_nice;
 allow ueventd fpc_sysfs:file rw_file_perms;
 allow ueventd spidev_file:chr_file { create getattr setattr };
 
-allow ueventd persist_file:dir search;
-allow ueventd persist_file:file r_file_perms;
+r_dir_file(ueventd, persist_file)
 
-allow ueventd wifi_vendor_data_file:dir r_dir_perms;
-allow ueventd wifi_vendor_data_file:file r_file_perms;
+r_dir_file(ueventd, wifi_vendor_data_file)
