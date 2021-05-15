@@ -34,3 +34,6 @@ dontaudit hal_fingerprint_default mnt_user_file:lnk_file { read };
 dontaudit hal_fingerprint_default rootfs:dir { search read };
 dontaudit hal_fingerprint_default sdcardfs:dir { search read };
 dontaudit hal_fingerprint_default storage_file:lnk_file { read };
+
+r_dir_file(hal_fingerprint_default, sysfs_battery_supply)
+r_dir_file(hal_fingerprint_default, sysfs_leds)
