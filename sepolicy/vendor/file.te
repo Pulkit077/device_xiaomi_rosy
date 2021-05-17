@@ -4,6 +4,9 @@ type proc_boot_reason, fs_type, proc_type;
 # Camera
 type camera_socket, file_type, data_file_type;
 
+# DT2W
+type proc_gesture, fs_type, proc_type;
+
 # IR
 type spidev_file, file_type;
 
