@@ -1,2 +1,5 @@
 # mwqem property
 vendor_restricted_prop(vendor_mwqem_prop);
+
+# wlan-vendor prop
+type vendor_wifi_prop, property_type;
