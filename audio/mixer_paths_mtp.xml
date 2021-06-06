@@ -1276,26 +1276,17 @@
     <path name="adc3">
         <ctl name="ADC3 Volume" value="6" />
         <ctl name="DEC1 MUX" value="ADC2" />
+        <ctl name="MI2S_TX Channels" value="One" />
         <ctl name="ADC2 MUX" value="INP3" />
     </path>
 
     <path name="hdmi">
     </path>
 
-    <path name="second-mic">
-        <path name="adc3" />
-        <ctl name="IIR1 INP1 MUX" value="DEC1" />
-    </path>
-
-    <path name="first-mic">
-        <ctl name="ADC1 Volume" value="2" />
-        <ctl name="DEC1 MUX" value="ADC1" />
-    </path>
-
     <path name="speaker">
         <ctl name="RX3 MIX1 INP1" value="RX1" />
         <ctl name="LINE_OUT" value="Switch" />
-	<ctl name="Ext Spk Switch" value="On"/>
+        <ctl name="Ext Spk Switch" value="On"/>
     </path>
 
     <path name="speaker-and-hdmi">
@@ -1334,6 +1325,7 @@
         <path name="speaker-protected" />
     </path>
 
+   <!-- .. -->
    <path name="speaker-mic">
         <ctl name="ADC1 Volume" value="6" />
         <ctl name="DEC2 MUX" value="ADC1" />
@@ -1342,6 +1334,7 @@
         <ctl name="ADC2 MUX" value="INP3" />
         <ctl name="MI2S_TX Channels" value="Two" />
    </path>
+   <!-- .. -->
 
     <path name="handset">
         <ctl name="RX1 MIX1 INP1" value="RX1" />
@@ -1351,6 +1344,7 @@
         <ctl name="EAR_S" value="Switch" />
     </path>
 
+   <!-- .. -->
     <path name="handset-mic">
         <path name="adc1" />
         <ctl name="ADC3 Volume" value="6" />
@@ -1358,6 +1352,7 @@
         <ctl name="ADC2 MUX" value="INP3" />
         <ctl name="MI2S_TX Channels" value="Two" />
     </path>
+   <!-- .. -->
 
     <path name="headphones">
         <ctl name="MI2S_RX Channels" value="Two" />
@@ -1377,6 +1372,10 @@
         <ctl name="IIR1 INP1 MUX" value="DEC1" />
     </path>
 
+    <path name="sub-mic">
+        <path name="adc3" />
+    </path>
+
     <path name="sidetone-iir">
         <ctl name="IIR1 Enable Band1" value="1" />
         <ctl name="IIR1 Enable Band2" value="1" />
@@ -1392,10 +1391,12 @@
     </path>
 
     <path name="sidetone-headphones">
+	<!--
         <path name="sidetone-iir" />
         <ctl name="RX1 MIX2 INP1" value="IIR1" />
         <ctl name="RX2 MIX2 INP1" value="IIR1" />
         <ctl name="IIR1 INP1 Volume" value="18" />
+	-->
     </path>
 
 
@@ -1430,7 +1431,15 @@
 
     <path name="speaker-and-headphones">
         <path name="speaker" />
-        <path name="headphones" />
+        <ctl name="MI2S_RX Channels" value="Two" />
+        <ctl name="RX1 MIX1 INP1" value="RX1" />
+        <ctl name="RX2 MIX1 INP1" value="RX2" />
+        <ctl name="RX HPH Mode" value="HD2" />
+        <ctl name="RDAC2 MUX" value="RX2" />
+        <ctl name="RX1 Digital Volume" value="68" />
+        <ctl name="RX2 Digital Volume" value="68" />
+        <ctl name="HPHL" value="Switch" />
+        <ctl name="HPHR" value="Switch" />
     </path>
 
     <path name="wsa-speaker-and-headphones">
@@ -1504,7 +1513,12 @@
     </path>
 
     <path name="voice-speaker-dmic-ef">
-        <path name="dmic-endfire" />
+        <ctl name="MI2S_TX Channels" value="Two" />
+        <ctl name="ADC3 Volume" value="6" />
+        <ctl name="DEC1 MUX" value="ADC2" />
+        <ctl name="ADC2 MUX" value="INP3" />
+        <ctl name="ADC1 Volume" value="6" />
+        <ctl name="DEC2 MUX" value="ADC1" />
     </path>
 
     <path name="voice-rec-dmic-ef">
@@ -1541,6 +1555,22 @@
 
     <path name="echo-reference">
         <ctl name="AUDIO_REF_EC_UL1 MUX" value="I2S_RX" />
+    </path>
+
+    <path name="handset-dmic-voice">
+        <path name="dmic-endfire" />
+    </path>
+
+    <path name="handset-dmic-music">
+        <path name="dmic-endfire" />
+    </path>
+
+    <path name="handset-dmic-interview">
+        <path name="dmic-endfire" />
+    </path>
+
+    <path name="camcorder-dmic">
+        <path name="dmic-endfire" />
     </path>
 
     <!-- TTY devices -->
@@ -1598,6 +1628,10 @@
 
     <path name="line">
           <path name="headphones" />
+    </path>
+
+    <path name="line-ce">
+         <path name="headphones-ce" />
     </path>
 
     <path name="voice-line">
