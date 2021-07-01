@@ -2046,7 +2046,7 @@ case "$target" in
                 #init task load, restrict wakeups to preferred cluster
                 echo 15 > /proc/sys/kernel/sched_init_task_load
 
-                for devfreq_gov in /sys/class/devfreq/qcom,mincpubw*/governor
+                for devfreq_gov in /sys/class/devfreq/soc:qcom,mincpubw/governor
                 do
                     echo "cpufreq" > $devfreq_gov
                 done
