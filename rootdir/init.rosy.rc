@@ -61,3 +61,6 @@ on post-fs-data
     chown system system /dev/spidev6.1
     chmod 0666 /dev/spidev7.1
     chmod 0666 /dev/spidev6.1
+
+on boot
+    write /proc/gesture/onoff 1
