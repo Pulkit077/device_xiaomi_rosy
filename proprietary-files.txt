@@ -1409,7 +1409,6 @@ vendor/lib64/libdiag.so|4ce5001e2c426456c1ade5ebb0ca7191fe43180b
 
 # Radio - from LA.UM.9.6.2.r1-03600-89xx.0
 -system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|a32f88ddcc8f9cba18aa5697ee5bd52201e89b13
--system_ext/app/datastatusnotification/datastatusnotification.apk|e53edd2449a9d567af2675ee1b204137c1784e69
 -system_ext/app/embms/embms.apk|e30c32f9e2e5ee2580ff788c76a8969b45199a96
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|344ad9179560cc83b208f62fb009fdc2799609fd
 system_ext/etc/permissions/embms.xml|22e7474091f9f71f02dd0cfc76cfa8848a46f079
