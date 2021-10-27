@@ -1,11 +1,11 @@
 # fingerprint prop
-type hal_fingerprint_prop, property_type;
+vendor_public_prop(hal_fingerprint_prop);
 
 # mwqem property
 vendor_restricted_prop(vendor_mwqem_prop);
 
 # Power HAL
-type vendor_power_propg, property_type;
+vendor_internal_prop(vendor_power_propg);
 
 # wlan-vendor prop
-type vendor_wifi_prop, property_type;
+vendor_internal_prop(vendor_wifi_prop);
