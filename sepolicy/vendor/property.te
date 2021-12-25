@@ -1,3 +1,6 @@
+# fingerprint prop
+type hal_fingerprint_prop, property_type;
+
 # mwqem property
 vendor_restricted_prop(vendor_mwqem_prop);
 
