@@ -2,9 +2,6 @@ allow init proc_boot_reason:file r_file_perms;
 
 allow init wcnss_device:chr_file write;
 
-# For mount tracefs tracefs /sys/kernel/tracing
-allow init debugfs_tracing_debug:dir mounton;
-
 # Allow init to bind mount loader config for media swcodec
 allow init system_file:file mounton;
 
@@ -13,7 +10,3 @@ allow init sysfs_leds:lnk_file read;
 
 # last_kmsg
 allow init proc_last_kmsg:file { r_file_perms setattr };
-
-# root directories
-allow init bt_firmware_file:filesystem getattr;
-allow init firmware_file:filesystem getattr;

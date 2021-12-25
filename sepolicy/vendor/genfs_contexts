@@ -22,10 +22,6 @@ genfscon debugfs /rmt_storage	u:object_r:debugfs_rmt:s0
 # RTC
 genfscon sysfs /devices/platform/soc/200f000.qcom,spmi/spmi-0/spmi0-00/200f000.qcom,spmi:qcom,pm8953@0:qcom,pm8953_rtc/rtc	u:object_r:sysfs_rtc:s0
 
-# Slab
-genfscon sysfs /kernel/slab/zs_handle/store_user	u:object_r:sysfs_slab_zshandle_storeuser:s0
-genfscon sysfs /kernel/slab/zspage/store_user		u:object_r:sysfs_slab_zspage_storeuser:s0
-
 # /sys
 genfscon sysfs /devices/platform/soc/200f000.qcom,spmi/spmi-0/spmi0-00			u:object_r:sysfs_battery_supply:s0
 genfscon sysfs /devices/platform/soc/200f000.qcom,spmi/spmi-0/spmi0-01			u:object_r:sysfs_battery_supply:s0

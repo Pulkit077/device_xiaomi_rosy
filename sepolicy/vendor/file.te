@@ -29,7 +29,3 @@ type proc_last_kmsg, fs_type, proc_type;
 
 # Rmt
 type debugfs_rmt, debugfs_type, fs_type;
-
-# slab-debug
-type sysfs_slab_zshandle_storeuser, fs_type, sysfs_type;
-type sysfs_slab_zspage_storeuser, fs_type, sysfs_type;
