@@ -437,6 +437,7 @@ PRODUCT_PACKAGES += \
     libcld80211 \
     libwpa_client \
     hostapd \
+    wcnss_service \
     WifiOverlay \
     wificond \
     wpa_supplicant \
