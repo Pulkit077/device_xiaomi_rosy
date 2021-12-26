@@ -21,6 +21,7 @@ allow vendor_init proc_swap:file w_file_perms;
 
 allow vendor_init proc_sysctl_autogroup:file w_file_perms;
 allow vendor_init proc_sysctl_schedboost:file w_file_perms;
+set_prop(vendor_init, vendor_power_propg);
 
 # Allow vendor_init to write to DT2W node
 allow vendor_init proc_gesture:file w_file_perms;
