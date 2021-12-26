@@ -312,6 +312,10 @@ net.tcp.2g_init_rwnd=10
 PRODUCT_PROPERTY_OVERRIDES += \
 wifi.interface=wlan0
 
+# Wi-Fi Display
+PRODUCT_SYSTEM_PROPERTIES += \
+media.wfd.max_resolution=5
+
 # USAP
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 persist.device_config.runtime_native.usap_pool_enabled=true
