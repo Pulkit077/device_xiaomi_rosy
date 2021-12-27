@@ -1,6 +1,8 @@
 typeattribute mm-qcamerad data_between_core_and_vendor_violators;
 
 binder_use(mm-qcamerad);
+
+get_prop(mm-qcamerad, camera_prop);
 set_prop(mm-qcamerad, camera_prop);
 
 allow mm-qcamerad camera_socket:dir w_dir_perms;
